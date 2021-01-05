@@ -1,0 +1,61 @@
+{
+    "sampletool_v0.1.0": {
+        "uri": "/Users/sprigent/Documents/code/bioimage-it/package/bioimageit/toolboxes/tools/sampletool/tools/sampletool.xml",
+        "id": "sampletool",
+        "name": "SampleTool",
+        "version": "0.1.0",
+        "type": "",
+        "categories": [
+            "Denoising",
+            "Filtering"
+        ],
+        "help": "https://bioimage-it.gitlabpages.inria.fr/sampletool/"
+    },
+    "threshold_particles_v1.0.0": {
+        "uri": "/Users/sprigent/Documents/code/bioimage-it/package/bioimageit/toolboxes/tools/fiji/tools/threshold_particles.xml",
+        "id": "threshold_particles",
+        "name": "Count particles",
+        "version": "1.0.0",
+        "type": "",
+        "categories": [
+            "Segmentation",
+            "Spots detection"
+        ],
+        "help": "https://bioimage-it.gitlabpages.inria.fr/fiji-tools/"
+    },
+    "Wilcoxon_v1.0.0": {
+        "uri": "/Users/sprigent/Documents/code/bioimage-it/package/bioimageit/toolboxes/tools/htesting/tools/wilcoxon.xml",
+        "id": "Wilcoxon",
+        "name": "Wilcoxon",
+        "version": "1.0.0",
+        "type": "merge",
+        "categories": [
+            "Statistics"
+        ],
+        "help": "https://bioimage-it.gitlabpages.inria.fr/htesting-tools/"
+    },
+    "sdeconv3d_v0.1.0": {
+        "uri": "/Users/sprigent/Documents/code/bioimage-it/package/bioimageit/toolboxes/tools/simg/tools/sdeconv3d.xml",
+        "id": "sdeconv3d",
+        "name": "SPARTION 3D",
+        "version": "0.1.0",
+        "type": "",
+        "categories": [
+            "image restauration",
+            "Deconvolution"
+        ],
+        "help": "https://serpico.gitlabpages.inria.fr/simg/spartion3d.html"
+    },
+    "sdeconv2d_v0.1.0": {
+        "uri": "/Users/sprigent/Documents/code/bioimage-it/package/bioimageit/toolboxes/tools/simg/tools/sdeconv2d.xml",
+        "id": "sdeconv2d",
+        "name": "SPARTION 2D",
+        "version": "0.1.0",
+        "type": "",
+        "categories": [
+            "image restauration",
+            "Deconvolution"
+        ],
+        "help": "https://serpico.gitlabpages.inria.fr/simg/spartion2d.html"
+    }
+}
