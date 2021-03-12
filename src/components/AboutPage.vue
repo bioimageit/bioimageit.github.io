@@ -178,6 +178,7 @@
       <h2>Team</h2>
       <ul>
         Sylvain Prigent: BioImageIT project manager<br />
+        Ludovic Leconte, responsible of the pilot study, CNRS/Curie <br />
         <a href="https://team.inria.fr/serpico/team-members/charles-kervrann-2/">Charles Kervrann</a>: Head of Serpico research team &#8211; Inria<br />
         <a href="https://science.curie.fr/members/salamero-jean-phd/">Jean Salamero</a>: Head of STED research team &#8211; CNRS/Curie
       </ul>
