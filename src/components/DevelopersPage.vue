@@ -51,7 +51,7 @@ export default {
 .bi-tile {
     cursor: pointer;
     text-align: center;
-    background-color: #018181;
+    background-color: #5A626C;
 }
 .bi-tile-link {
     min-width: 300px;

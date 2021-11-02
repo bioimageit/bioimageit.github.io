@@ -49,7 +49,7 @@ export default {
     background-color: #f7f7f7;
 }
 .bi-link {
-    color: #018181;
+    color: #0071C3;
 }
 .bi-space {
     margin-top: -12px;
@@ -59,13 +59,16 @@ export default {
 }
 .bi-header {
     color: #ffffff;
-    background-color: #018181;
+    background-color: #414851;
     border-radius: 0px;
 }
 .bi-alt-light {
-    background-color: #f7f7f7;
+    margin-top: -35px;
+    background-color: #414851;
 }
 .bi-alt-dark {
+    color: #333333;
+    margin-top: -14px;
     background-color: #eeeeee;
 }
 
