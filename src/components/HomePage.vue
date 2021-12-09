@@ -3,27 +3,32 @@
     <site-navbar></site-navbar>
     <div class="bi-space"></div>
     <div class="jumbotron text-center bi-header">
-        <h1>BioImageIT</h1>
+        
+        <h1 id="bi-logo"><img src="~@/assets/logo.png" width="150px" /> BioImageIT</h1>
         <p class="bi-subtitle">FAIR BioImage analysis</p>
         <p>FAIR: Findable, Accessible, interoperable, Reusable </p>
     </div>
 
     <div class="text-center">
         <div class="col-12 bi-alt-light">
-        <h3>Manage and process your data with the graphical interface</h3>
+        <h3>Manage and process data with a simple interface</h3>
         <img src="~@/assets/icons/gui.png" width="70%">
         <p>
-        <router-link :to="'tutorials'"><span class="bi-link">see the tutorials</span></router-link>
         </p>
         </div>
-        <div class="col-12 bi-alt-dark">
-        <h3>Manage and process your data with python </h3>
+        <div class="col-12 bi-alt-light">
+        <h3>Manage and process data with a simple python API </h3>
         <img src="~@/assets/icons/python_lib.png" width="70%">
-        <p>
-        <router-link :to="'tutorials'"><span class="bi-link">see the tutorials</span></router-link>
-        </p>
+        </div>
+        <div class="col-12 bi-spacer">
         </div>
     </div>
+
+    <div class="text-center bi-founding"> 
+        <h3>BioImageIT is funded by</h3>
+        <p><a href="https://france-bioimaging.org/"><img src="~@/assets/icons/france-bioimaging_inv.png" alt="" width="300" height="87"/></a></p>
+      
+    </div>       
 
 </div>
 
@@ -46,7 +51,7 @@ export default {
 
 <style scoped>
 .bi-home-div {
-    background-color: #f7f7f7;
+    background-color: #414851;
 }
 .bi-link {
     color: #0071C3;
@@ -67,10 +72,22 @@ export default {
     background-color: #414851;
 }
 .bi-alt-dark {
+    margin-top: -35px;
     color: #333333;
-    margin-top: -14px;
-    background-color: #eeeeee;
+    background-color: #414851;
+}
+.bi-spacer {
+    height: 100px;
+    background-color: #414851;
 }
 
+.bi-founding {
+    color: #f0f1f2;
+    margin-top: 0px;
+    background-color: #414851;
+}
+#bi-logo{
+    color: #0071C3;
+}
 
 </style>

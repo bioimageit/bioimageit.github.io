@@ -1,7 +1,7 @@
 <template>
 <div>
   <b-navbar class="bi-navbar" toggleable="lg" type="dark" variant="dark">
-    <b-navbar-brand href="#"><span class="bi-brand">BioImageIT</span></b-navbar-brand>
+    <b-navbar-brand href="#"><span class="bi-brand"><img src="~@/assets/logo.png" width="50px" />BioImageIT</span></b-navbar-brand>
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
     <b-collapse id="nav-collapse" is-nav>
@@ -11,7 +11,12 @@
         <b-nav-item class="nav-item"><router-link class="nav-link bi-nav-item" to="/install">Install</router-link></b-nav-item>
         <b-nav-item class="nav-item"><router-link class="nav-link bi-nav-item" to="/tutorials">Tutorials</router-link></b-nav-item>
         <b-nav-item class="nav-item"><router-link class="nav-link bi-nav-item" to="/developers">Developers</router-link></b-nav-item>
+        
+        
+        <b-nav-item class="nav-item"><router-link class="nav-link bi-nav-item" to="/videos">Videos</router-link></b-nav-item>
+        <b-nav-item class="nav-item"><router-link class="nav-link bi-nav-item" to="/events">Events</router-link></b-nav-item>
         <b-nav-item class="nav-item"><router-link class="nav-link bi-nav-item" to="/about">About</router-link></b-nav-item>
+        <!-- <b-nav-item class="nav-item"><router-link class="nav-link bi-nav-item" to="/mifobio">MiFoBio 2021</router-link></b-nav-item> -->
       </b-navbar-nav>
 
     </b-collapse>

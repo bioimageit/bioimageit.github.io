@@ -2,43 +2,35 @@
 <div>
   <site-navbar></site-navbar>
   <div class="container">
-    <div class="col-12">
-      <h1>Install</h1>
+    <div class="row">
+      <div class="col-12 text-center">
+        <h1><img src="~@/assets/logo.png" width="70"> <br />BioImageIT Install</h1>
+        </div>
     </div>
-    <div class="col-12">
-      <p>This page describes  the different methods to install the BioImageIT tools suite. If you plan to use it locally on a workstation,
-        we recommend using the automatic installer. Otherwise, if you need a specific install with a specific backend, you need to install
-        each component manually. 
-       
-      <h2>Local installer</h2>
 
-      The local installer install BioImageIT in the user home directory. All the BioImageIT dependencies are installed in 
-      this local folder and then no administrator privileges are needed
+    <div class="row">
+      <div class="col-md-12">
+        <div class="bi-spacer">
+        </div>
+      </div> 
+      <div class="col-md-4 text-center"> 
+        <a href="#/install-windows">
+        <img src="~@/assets/install/windows.png" width="200" height="200" /><br />
+        Install for Windows</a><br />
+      </div>  
 
-      <h3>Windows</h3>
+      <div class="col-md-4 text-center"> 
+        <a href="#/install-mac">
+        <img src="~@/assets/install/apple.png" width="200" height="200" /><br />
+        Install for MacOS</a><br />
+      </div> 
 
-      <p>Download and execute the installer from <a href="https://github.com/bioimageit/bioimageit-install/raw/main/windows/BioimageIT_installer.exe">here</a></p>
-      <p>When the install is finished, BioImageIT is installed in <i>C:\Users\username\BioimageIT_installation_files\</i> and the BioImageIT 
-      application should appear in the start menu</p>
+      <div class="col-md-4 text-center"> 
+        <a href="#/install-linux">
+        <img src="~@/assets/install/linux.png" width="168" height="200" /><br />
+        Install for Linux</a><br />
+      </div> 
 
-      <h3>MacOS</h3>
-
-      <p>To install BioImageIT on MacOS, download the script <a href="https://raw.githubusercontent.com/bioimageit/bioimageit-install/main/mac/install.sh">install.sh</a>: </p>
-      <p>and run the commands from terminal:</p>
-      <p><code><br />
-        chmod +x install.sh<br />
-        ./install.sh <br />
-      </code></p>
-
-      <p>
-      You can then start BioImageIT with the command
-      </p>
-      <p><code><br />
-      ./Users/username/BioimageIT/BioImageIT.sh
-      </code></p>
-
-      <h2>Manual install</h2>
-      <p>the manual installation is available in the BioImageIT library documentation <a href="https://bioimageit.github.io/bioimageit_core/install.html">here</a></p>
     </div>
   </div>
 </div>
@@ -62,5 +54,8 @@ export default {
 <style scoped>
 .navbar-url {
     border: 1px solid #333333;
+}
+.bi-spacer{
+  height: 100px;
 }
 </style>
