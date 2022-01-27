@@ -1,7 +1,7 @@
 <template>
 <div>
   <site-navbar></site-navbar>
-  <div class="container">
+  <div class="container bi-padding">
     <div class="row">
     <div class="col-md-6 text-center">
       <h1>BioImage Informatics 2021</h1>
@@ -23,10 +23,12 @@
       </div>
     </div>
   </div>  
+  <site-footer></site-footer>
 </div>
 </template>
 
 <script>
+import SiteFooter from './SiteFooter.vue'
 import SiteNavbar from './SiteNavbar'
 
 export default {
@@ -36,7 +38,8 @@ export default {
   methods: {
   },
   components: {
-    SiteNavbar
+    SiteNavbar,
+    SiteFooter
   }
 }
 </script>
@@ -44,5 +47,8 @@ export default {
 <style scoped>
 .navbar-url {
     border: 1px solid #333333;
+}
+.bi-padding{
+  padding-bottom: 300px;
 }
 </style>

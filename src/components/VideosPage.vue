@@ -34,10 +34,12 @@
     </div>
 
   </div>  
+  <site-footer></site-footer>
 </div>
 </template>
 
 <script>
+import SiteFooter from './SiteFooter.vue'
 import SiteNavbar from './SiteNavbar'
 
 export default {
@@ -47,7 +49,8 @@ export default {
   methods: {
   },
   components: {
-    SiteNavbar
+    SiteNavbar,
+    SiteFooter
   }
 }
 </script>

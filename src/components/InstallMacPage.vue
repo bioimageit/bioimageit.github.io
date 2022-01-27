@@ -9,9 +9,10 @@
         </div>
     </div>
     
+    <div class="bi-install">
     <h1>MacOS install</h1>
 
-      <p>To install BioImageIT on MacOS, download the script <a href="https://raw.githubusercontent.com/bioimageit/bioimageit-install/main/mac/install.sh" download>install.sh</a>: </p>
+      <p>To install BioImageIT on MacOS, download the script <a href="https://raw.githubusercontent.com/bioimageit/bioimageit-install/v0.0.2/mac/install.sh" download>install.sh</a>: </p>
       <p>and run the commands from terminal:</p>
       <p><code><br />
         chmod +x install.sh<br />
@@ -26,13 +27,15 @@
       <p><code><br />
       ./Users/username/BioImageIT/BioImageIT.sh
       </code></p>
-
     </div>
+    </div>
+    <site-footer></site-footer> 
   </div>
 </template>
 
 <script>
 import SiteNavbar from './SiteNavbar'
+import SiteFooter from './SiteFooter'
 
 export default {
   name: 'InstallWindowsPage',
@@ -41,12 +44,16 @@ export default {
   methods: {
   },
   components: {
-    SiteNavbar
+    SiteNavbar,
+    SiteFooter
   }
 }
 </script>
 
 <style scoped>
+.bi-install {
+  padding-bottom: 300px;
+}
 .navbar-url {
     border: 1px solid #333333;
 }

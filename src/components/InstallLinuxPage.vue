@@ -7,7 +7,7 @@
         <h1><img src="~@/assets/logo.png" width="70"> <br />BioImageIT Install</h1>
         </div>
     </div>
-    
+   <div class="bi-install"> 
   <h1>Linux install</h1>
 
       <p>To install BioImageIT on MacOS, download the script <a href="https://raw.githubusercontent.com/bioimageit/bioimageit-install/main/linux/install.sh" download>install.sh</a>: </p>
@@ -27,11 +27,14 @@
       </code></p>
 
     </div>
+    </div>
+    <site-footer></site-footer> 
   </div>
 </template>
 
 <script>
 import SiteNavbar from './SiteNavbar'
+import SiteFooter from './SiteFooter'
 
 export default {
   name: 'InstallWindowsPage',
@@ -40,12 +43,16 @@ export default {
   methods: {
   },
   components: {
-    SiteNavbar
+    SiteNavbar,
+    SiteFooter
   }
 }
 </script>
 
 <style scoped>
+.bi-install {
+  padding-bottom: 300px;
+}
 .navbar-url {
     border: 1px solid #333333;
 }

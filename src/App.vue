@@ -28,6 +28,6 @@ export default {
   margin-top: 0px;
   margin-left: 0px;
   background-color: #414851;
-  min-height: 2000px;
+  /*min-height: 2000px;*/
 }
 </style>

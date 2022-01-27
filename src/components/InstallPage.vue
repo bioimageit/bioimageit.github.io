@@ -8,7 +8,7 @@
         </div>
     </div>
 
-    <div class="row">
+    <div class="row bi-install">
       <div class="col-md-12">
         <div class="bi-spacer">
         </div>
@@ -33,11 +33,13 @@
 
     </div>
   </div>
+  <site-footer></site-footer>
 </div>
 </template>
 
 <script>
 import SiteNavbar from './SiteNavbar'
+import SiteFooter from './SiteFooter'
 
 export default {
   name: 'HomePage',
@@ -46,7 +48,8 @@ export default {
   methods: {
   },
   components: {
-    SiteNavbar
+    SiteNavbar,
+    SiteFooter
   }
 }
 </script>
@@ -54,6 +57,9 @@ export default {
 <style scoped>
 .navbar-url {
     border: 1px solid #333333;
+}
+.bi-install {
+  padding-bottom: 140px;
 }
 .bi-spacer{
   height: 100px;

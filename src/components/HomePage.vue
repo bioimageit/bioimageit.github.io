@@ -22,20 +22,15 @@
         </div>
         <div class="col-12 bi-spacer">
         </div>
-    </div>
-
-    <div class="text-center bi-founding"> 
-        <h3>BioImageIT is funded by</h3>
-        <p><a href="https://france-bioimaging.org/"><img src="~@/assets/icons/france-bioimaging_inv.png" alt="" width="300" height="87"/></a></p>
-      
-    </div>       
-
+    </div>    
+<site-footer></site-footer>
 </div>
 
 </template>
 
 <script>
 import SiteNavbar from './SiteNavbar'
+import SiteFooter from './SiteFooter'
 
 export default {
   name: 'HomePage',
@@ -44,7 +39,8 @@ export default {
   methods: {
   },
   components: {
-    SiteNavbar
+    SiteNavbar,
+    SiteFooter
   }
 }
 </script>
@@ -78,12 +74,6 @@ export default {
 }
 .bi-spacer {
     height: 100px;
-    background-color: #414851;
-}
-
-.bi-founding {
-    color: #f0f1f2;
-    margin-top: 0px;
     background-color: #414851;
 }
 #bi-logo{

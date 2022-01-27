@@ -88,26 +88,30 @@
     <div class="row">
 
     <div class="col-md-3 text-center"> 
+      <a href="https://sylvainprigent.github.io">
       <img src="~@/assets/team/sprigent.png" width="200" height="200" /><br />
-      <a href="https://sylvainprigent.github.io">Sylvain Prigent</a> <br />
+      Sylvain Prigent</a> <br />
       BioImageIT project manager &#8211; Inria <br />
     </div>
 
     <div class="col-md-3 text-center"> 
+      <a href="#/about">
       <img src="~@/assets/team/lleconte.png" width="200" height="200" /><br />
-      <a href="#/about">Ludovic Leconte</a><br /> 
+      Ludovic Leconte</a><br /> 
       Responsible of the pilot study &#8211; CNRS/Curie <br />
     </div>
 
     <div class="col-md-3 text-center"> 
+      <a href="#/about">
       <img src="~@/assets/team/cvalades.png" width="200" height="200" /><br />
-      <a href="#/about">Cesar-Augusto Valades Cruz</a><br />
+      Cesar-Augusto Valades Cruz</a><br />
       Engineer &#8211; Inria<br/>
     </div>
 
     <div class="col-md-3 text-center"> 
+      <a href="#/about">
       <img src="~@/assets/team/lmaury.png" width="200" height="200" /><br />
-      <a href="#/about">L&eacute;o Maury</a><br /> 
+      L&eacute;o Maury</a><br /> 
       Engineer &#8211; CNRS
     </div>
 
@@ -115,14 +119,16 @@
     <div class="row justify-content-md-center">
 
     <div class="col-md-3 text-center"> 
+      <a href="https://science.curie.fr/members/salamero-jean-phd/">
       <img src="~@/assets/team/jsalamero.png" width="200" height="200" /><br />
-      <a href="https://science.curie.fr/members/salamero-jean-phd/">Jean Salamero</a><br /> 
+      Jean Salamero</a><br /> 
       Head of STED research team &#8211; CNRS/Curie
     </div>
 
     <div class="col-md-3 text-center"> 
+      <a href="https://team.inria.fr/serpico/team-members/charles-kervrann-2/">
       <img src="~@/assets/team/ckervrann.png" width="200" height="200" /><br />
-      <a href="https://team.inria.fr/serpico/team-members/charles-kervrann-2/">Charles Kervrann</a><br /> 
+      Charles Kervrann</a><br /> 
       Head of Serpico research team &#8211; Inria<br />
     </div>
 
@@ -131,23 +137,16 @@
     <div class="bi-spacer">
     </div>  
 
-    <h2>Funding</h2>
-
-    <p>BioImageIT is a project supported by France-BioImaging</p>
-    <div class="row">
-      <div class="col-12 align-center">
-    <p><a class="align-center" href="https://france-bioimaging.org/"><img src="~@/assets/icons/france-bioimaging_inv.png" alt="" width="300" height="87"></a>
-    </p>  
-    </div>
-    </div>
 
       </div>
-   </div>     
+   </div>   
+<site-footer></site-footer>     
 </div>
 </template>
 
 <script>
 import SiteNavbar from './SiteNavbar'
+import SiteFooter from './SiteFooter'
 
 export default {
   name: 'AboutPage',
@@ -156,7 +155,8 @@ export default {
   methods: {
   },
   components: {
-    SiteNavbar
+    SiteNavbar,
+    SiteFooter
   }
 }
 </script>
