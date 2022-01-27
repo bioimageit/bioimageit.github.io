@@ -22,6 +22,15 @@
       </p>  
       </div>
     </div>
+    <div class="col-md-6 text-center">
+      <h1>RTMFM webinar 2022</h1>
+
+      <p class="text-center">
+      <iframe width="500" height="270"
+        src="https://www.youtube.com/embed/5zZShltNfkI">
+      </iframe> 
+      </p>    
+    </div>
   </div>  
   <site-footer></site-footer>
 </div>
