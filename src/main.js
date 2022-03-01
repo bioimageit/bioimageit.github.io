@@ -20,6 +20,8 @@ import DevelopersPage from './components/DevelopersPage'
 //import MifobioPage from './components/MifobioPage'
 import EventsPage from './components/EventsPage'
 import VideosPage from './components/VideosPage'
+import DocumentationPage from './components/DocumentationPage'
+
 
 Vue.use(VueRouter);
 Vue.use(BootstrapVue);
@@ -38,7 +40,8 @@ const router = new VueRouter({
     { path: '/tutorials', component: TutorialsPage },
     { path: '/developers', component: DevelopersPage },
     { path: '/events', component: EventsPage },
-    { path: '/videos', component: VideosPage }
+    { path: '/videos', component: VideosPage },
+    { path: '/documentation', component: DocumentationPage }
     //{ path: '/mifobio', component: MifobioPage }
   ]
 })

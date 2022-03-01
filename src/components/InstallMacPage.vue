@@ -12,21 +12,10 @@
     <div class="bi-install">
     <h1>MacOS install</h1>
 
-      <p>To install BioImageIT on MacOS, download the script <a href="https://raw.githubusercontent.com/bioimageit/bioimageit-install/v0.0.2/mac/install.sh" download>install.sh</a>: </p>
-      <p>and run the commands from terminal:</p>
-      <p><code><br />
-        chmod +x install.sh<br />
-        ./install.sh <br />
-      </code></p>
-
-      <p>When the install is finished, BioImageIT is installed in <i>/Users/username/BioimageIT</i> .</p>
-
-      <p>
-      You can then start BioImageIT with the command
-      </p>
-      <p><code><br />
-      ./Users/username/BioImageIT/BioImageIT.sh
-      </code></p>
+      <p>To install BioImageIT on MacOS, download the installer from <a href="https://github.com/bioimageit/bioimageit-install/raw/main/mac/BioImageIT_install.dmg" download>here</a> </p>
+      <p>Double click <i>BioImageIT_install.dmg</i> to open it </p>
+      <p>Double click <i>BioImageIT_install</i> to start the install </p>
+      <p>When the install is finished, BioImageIT is available in the Launchpad</p>
     </div>
     </div>
     <site-footer></site-footer> 

@@ -9,8 +9,9 @@
         <b-nav-item class="nav-item"><router-link class="nav-link bi-nav-item" to="/home">Home</router-link></b-nav-item>
         <!-- <b-nav-item class="nav-item"><router-link class="nav-link bi-nav-item" to="/tools">What's inside</router-link></b-nav-item> -->
         <b-nav-item class="nav-item"><router-link class="nav-link bi-nav-item" to="/install">Install</router-link></b-nav-item>
-        <b-nav-item class="nav-item"><router-link class="nav-link bi-nav-item" to="/tutorials">Tutorials</router-link></b-nav-item>
-        <b-nav-item class="nav-item"><router-link class="nav-link bi-nav-item" to="/developers">Developers</router-link></b-nav-item>
+        <b-nav-item class="nav-item"><router-link class="nav-link bi-nav-item" to="/documentation">Documentation</router-link></b-nav-item>
+        <!-- <b-nav-item class="nav-item"><router-link class="nav-link bi-nav-item" to="/tutorials">Tutorials</router-link></b-nav-item> -->
+        <!-- <b-nav-item class="nav-item"><router-link class="nav-link bi-nav-item" to="/developers">Developers</router-link></b-nav-item> -->
         
         
         <b-nav-item class="nav-item"><router-link class="nav-link bi-nav-item" to="/videos">Videos</router-link></b-nav-item>
