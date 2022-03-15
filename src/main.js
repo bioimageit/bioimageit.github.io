@@ -16,7 +16,6 @@ import InstallWindowsPage from './components/InstallWindowsPage'
 import InstallMacPage from './components/InstallMacPage'
 import InstallLinuxPage from './components/InstallLinuxPage'
 import TutorialsPage from './components/TutorialsPage'
-import DevelopersPage from './components/DevelopersPage'
 //import MifobioPage from './components/MifobioPage'
 import EventsPage from './components/EventsPage'
 import VideosPage from './components/VideosPage'
@@ -38,7 +37,6 @@ const router = new VueRouter({
     { path: '/install-mac', component: InstallMacPage },
     { path: '/install-linux', component: InstallLinuxPage },
     { path: '/tutorials', component: TutorialsPage },
-    { path: '/developers', component: DevelopersPage },
     { path: '/events', component: EventsPage },
     { path: '/videos', component: VideosPage },
     { path: '/documentation', component: DocumentationPage }

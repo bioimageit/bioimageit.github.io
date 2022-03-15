@@ -8,28 +8,16 @@
         <div class="col-12 bi-padding">
             <h2>Use BioImageIT with the graphical interfaces</h2>
             <div class="row justify-content-center">
-                <a href="https://bioimageit.github.io/bioimageit_gui/tutorial_experiment.html" class="bi-tile-link">
+                <a href="https://bioimageit.github.io/bioimageit_gui/tutorial_data_management.html" class="bi-tile-link">
                 <div class="col-sm bi-tile">
                     <img src="~@/assets/icons/tutorial_icon_white.png" alt="tutorial" width="150px">
-                    <p>Create an experiment</p>
+                    <p>Data management</p>
                 </div>
                 </a>
-                <a href="https://bioimageit.github.io/bioimageit_gui/tutorial_finder.html" class="bi-tile-link">
+                <a href="https://bioimageit.github.io/bioimageit_gui/tutorial_data_analysis.html" class="bi-tile-link">
                 <div class="col-sm bi-tile">
                     <img src="~@/assets/icons/tutorial_icon_white.png" alt="tutorial" width="150px">
-                    <p>Browse the toolboxes</p>
-                </div>
-                </a>
-                <a href="https://bioimageit.github.io/bioimageit_gui/tutorial_runner.html" class="bi-tile-link">
-                <div class="col-sm bi-tile">
-                    <img src="~@/assets/icons/tutorial_icon_white.png" alt="tutorial" width="150px">
-                    <p>Run a data processing tool</p>
-                </div>
-                </a>
-                <a href="https://bioimageit.github.io/bioimageit_gui/tutorial_pipeline.html" class="bi-tile-link">
-                <div class="col-sm bi-tile">
-                    <img src="~@/assets/icons/tutorial_icon_white.png" alt="tutorial" width="150px">
-                    <p>Design a data processing pipeline</p>
+                    <p>Data analysis</p>
                 </div>
                 </a>
             </div>
@@ -67,10 +55,10 @@
                     <p>Write a tool wraper</p>
                 </div>
                 </a>
-                <a href="https://bioimageit.github.io/bioimageit_core/tutorial_write_a_metadata_plugin.html" class="bi-tile-link">
+                <a href="https://bioimageit.github.io/bioimageit_core/tutorial_write_a_data_plugin.html" class="bi-tile-link">
                 <div class="col-sm bi-tile">
                     <img src="~@/assets/icons/tutorial_icon_white.png" alt="tutorial" width="150px">
-                    <p>Write a metadata plugin</p>
+                    <p>Write a data plugin</p>
                 </div>
                 </a>
                 <a href="https://bioimageit.github.io/bioimageit_core/tutorial_write_a_runner_plugin.html" class="bi-tile-link">
