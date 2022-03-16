@@ -10,7 +10,7 @@
    <div class="bi-install"> 
   <h1>Linux install</h1>
 
-      <p>To install BioImageIT on MacOS, download the script <a href="https://raw.githubusercontent.com/bioimageit/bioimageit-install/main/linux/install.sh" download>install.sh</a>: </p>
+      <p>To install BioImageIT on MacOS, download the script <a href="https://raw.githubusercontent.com/bioimageit/bioimageit-install/v0.0.2/linux/install.sh" download>install.sh</a>: </p>
       <p>and run the commands from terminal:</p>
       <p><code><br />
         chmod +x install.sh<br />

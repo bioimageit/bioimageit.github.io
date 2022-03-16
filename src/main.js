@@ -31,7 +31,6 @@ const router = new VueRouter({
     { path: '/', component: HomePage },
     { path: '/home', component: HomePage },
     { path: '/about', component: AboutPage },
-    //{ path: '/tools', component: ToolsPage },
     { path: '/install', component: InstallPage },
     { path: '/install-windows', component: InstallWindowsPage },
     { path: '/install-mac', component: InstallMacPage },
@@ -40,7 +39,6 @@ const router = new VueRouter({
     { path: '/events', component: EventsPage },
     { path: '/videos', component: VideosPage },
     { path: '/documentation', component: DocumentationPage }
-    //{ path: '/mifobio', component: MifobioPage }
   ]
 })
 
