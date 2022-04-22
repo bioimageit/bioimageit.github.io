@@ -9,7 +9,7 @@
       </iframe> 
     </div>
     <div class="text-center col-12">
-      <h2>BioImpageIT tool demo (ND-SAFIR)</h2>
+      <h2>BioImageIT tool demo (ND-SAFIR)</h2>
        <iframe width="700" height="420"
         src="https://www.youtube.com/embed/87JFlLHzsMU">
       </iframe> 
