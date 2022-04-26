@@ -9,12 +9,17 @@
 
     <div class="bi-spacer">
     </div> 
+    
       <h2>The BioImageIT project</h2>
+      
       Started in 2019 with France-BioImaging, the BioImageIT project aims at providing a middleware that integrates data management with analysis using existing softwares (Omero, BioFormats, Fiji, napari, Scipy, pytorch...)
       The BioImageIT software is open-source and available at <a href="https://github.com/bioimageit">https://github.com/bioimageit</a>
+      
+          <div class="bi-spacer">
+    </div> 
       <h2>Road map</h2>
       BioImageIT is being developed within the framework of the France BioImaging National Research Infrastructure (FBI). As a first step of deployment, this project is supported by the Research Infrastructure, until the end of 2023. For the 2 years, two engineers are dedicated to the deployment and maintenance of BioImageIT, as well as the integration of new software. BioImageIT is now being deployed on ten imaging platforms of the France-BioImaging national infrastructure. A plan and schedule have been validated for funding by the FBI steering committee (<a href="https://france-bioimaging.org/france-bioimaging-funding-decision/fbi-internal-call-2021-technology-transfer-results/">https://france-bioimaging.org/france-bioimaging-funding-decision/fbi-internal-call-2021-technology-transfer-results/</a>) and can be accessed through <a href="https://github.com/bioimageit/bioimageit.github.io/raw/master/src/components/AO-FBI-tech-transfer-BioImage-ITbis.pdf">this link</a>. 
-  
+
     <!--
       <h2>The BioImageIT project</h2>
 
