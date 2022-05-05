@@ -10,6 +10,7 @@ import 'bootstrap-vue/dist/bootstrap-vue.css';
 
 import HomePage from './components/HomePage'
 import AboutPage from './components/AboutPage'
+import CommunityPage from './components/CommunityPage'
 //import ToolsPage from './components/ToolsPage'
 import InstallPage from './components/InstallPage'
 import InstallWindowsPage from './components/InstallWindowsPage'
@@ -31,6 +32,7 @@ const router = new VueRouter({
     { path: '/', component: HomePage },
     { path: '/home', component: HomePage },
     { path: '/about', component: AboutPage },
+    { path: '/community', component: CommunityPage },
     { path: '/install', component: InstallPage },
     { path: '/install-windows', component: InstallWindowsPage },
     { path: '/install-mac', component: InstallMacPage },
