@@ -152,7 +152,7 @@
       </div>
     <h2>Acknowledgements</h2>   
 
-    BioImageIT project is highly connected to python imaging open-source projects like scikit-image and napari. We then acknowledge the influence of their mission and values 
+    BioImageIT project is highly connected to python imaging open-source projects like <b>scikit-image</b> and <b>napari</b>. We then acknowledge the influence of their mission and values 
     statement on this document.
 
       <div class="bi-spacer">
