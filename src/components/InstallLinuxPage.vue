@@ -26,7 +26,7 @@
       <p>When the install is finished, BioImageIT is installed in <i>/home/username/BioimageIT</i> .</p>
 
       <p>
-      You can then start BioImageIT with the command
+      You can then start BioImageIT with the command (it is also available in the App Menu)
       </p>
       <p><code><br />
       ./home/username/BioImageIT/BioImageIT.sh
