@@ -18,7 +18,7 @@
    <div class="bi-install"> 
   <h1>Linux install</h1>
 
-      <p>To install BioImageIT on Linux, download the script <a href="https://raw.githubusercontent.com/bioimageit/bioimageit-install/v0.1.1/linux/install.sh" download>install.sh</a>: </p>
+      <p>To install BioImageIT on Linux, download the script <a href="https://raw.githubusercontent.com/bioimageit/bioimageit-install/v0.1.2/linux/install.sh" download>install.sh</a>: </p>
       <p>and run the commands from terminal:</p>
       <p><code><br />
         chmod +x install.sh<br />
