@@ -18,11 +18,9 @@
    <div class="bi-install"> 
   <h1>Linux install</h1>
 
-      <p>To install BioImageIT on Linux, download the script <a href="https://raw.githubusercontent.com/bioimageit/bioimageit-install/v0.1.2/linux/install.sh" download>install.sh</a>: </p>
-      <p>and run the commands from terminal:</p>
+      <p>To install BioImageIT on Linux, run the following command from terminal:</p>
       <p><code><br />
-        chmod +x install.sh<br />
-        ./install.sh <br />
+        cd /home/$USER && wget  https://raw.githubusercontent.com/bioimageit/bioimageit-install/v0.1.2/linux/install.sh && chmod +x install.sh && sh install.sh && rm install.sh<br />
       </code></p>
 
       <p>When the install is finished, BioImageIT is installed in <i>/home/username/BioimageIT</i> .</p>
