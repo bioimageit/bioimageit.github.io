@@ -16,6 +16,7 @@
         <p>
         </p>
         </div>
+        <br>
         <div class="col-12 bi-alt-light">
         <h3>Manage and process data with a simple python API </h3>
         <img src="~@/assets/icons/python_lib.png" width="70%">
