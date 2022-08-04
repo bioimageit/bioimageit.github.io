@@ -7,36 +7,36 @@
        <iframe width="700" height="420"
         src="https://www.youtube.com/embed/cDPn5OF9LRI">
       </iframe>
-      <br>
     </div>
+    <br>
     <div class="text-center col-12">
       <h2>BioImageIT tool demo (ND-SAFIR)</h2>
        <iframe width="700" height="420"
         src="https://www.youtube.com/embed/87JFlLHzsMU">
       </iframe> 
-      <br>
     </div>
+    <br>
     <div class="text-center col-12">
       <h2>BioImageIT data management demo</h2>
        <iframe width="700" height="420"
         src="https://www.youtube.com/embed/PKXsEZ0fMxk">
       </iframe> 
-      <br>
     </div>
+    <br>
     <div class="text-center col-12">
       <h2>BioImageIT installation Windows</h2>
        <iframe width="700" height="420"
         src="https://www.youtube.com/embed/Z0DP0tMZPEY">
       </iframe> 
-      <br>
     </div>
+    <br>
     <div class="text-center col-12">
       <h2>BioImageIT installation MacOS</h2>
        <iframe width="700" height="420"
         src="https://www.youtube.com/embed/R_dVrSbt1Ic">
       </iframe> 
-      <br>
     </div>
+    <br>
     <div class="text-center col-12">
       <h2>BioImageIT installation Linux</h2>
        <iframe width="700" height="420"
