@@ -102,7 +102,7 @@
     </div>
 
     <div class="col-md-3 text-center"> 
-      <a href="#/about">
+      <a href="https://leconteludovic.github.io/Webpage/">
       <img src="~@/assets/team/lleconte.png" width="200" height="200" /><br />
       Ludovic Leconte</a><br /> 
       Responsible of the pilot study &#8211; CNRS/Curie <br />
@@ -116,7 +116,7 @@
     </div>
 
     <div class="col-md-3 text-center"> 
-      <a href="#/about">
+      <a href="https://leomaury.github.io/">
       <img src="~@/assets/team/lmaury.png" width="200" height="200" /><br />
       L&eacute;o Maury</a><br /> 
       Engineer &#8211; CNRS
