@@ -109,7 +109,7 @@
     </div>
 
     <div class="col-md-3 text-center"> 
-      <a href="#/about">
+      <a href=https://cessvala.github.io/">
       <img src="~@/assets/team/cvalades.png" width="200" height="200" /><br />
       Cesar Augusto Valades-Cruz</a><br />
       Engineer &#8211; Inria<br/>
