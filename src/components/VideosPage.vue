@@ -26,7 +26,7 @@
     <div class="text-center col-12">
       <h2>Big data upload and real time visualization with OMERO</h2>
        <iframe width="700" height="420"
-        src="https://www.youtube.com/watch?v=ywcojZ2YRTs">
+        src="https://www.youtube.com/embed/ywcojZ2YRTs">
       </iframe> 
     </div>
     <br>
