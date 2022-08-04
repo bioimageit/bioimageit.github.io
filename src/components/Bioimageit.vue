@@ -8,6 +8,7 @@
   <div class="col-12">
     <h2>Manage and process your data with the graphical interface</h2>
   </div>
+  <br>
   <div class="col-12">
     <h2>Manage and process your data with python</h2>
   </div>
