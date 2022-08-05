@@ -18,19 +18,19 @@
       <div class="col-md-4 text-center"> 
         <a href="#/install-windows">
         <img src="~@/assets/install/windows.png" width="200" height="200" /><br />
-        Install for Windows</a><br />
+        Windows</a><br />
       </div>  
 
       <div class="col-md-4 text-center"> 
         <a href="#/install-mac">
         <img src="~@/assets/install/apple.png" width="200" height="200" /><br />
-        Install for MacOS</a><br />
+        MacOS</a><br />
       </div> 
 
       <div class="col-md-4 text-center"> 
         <a href="#/install-linux">
         <img src="~@/assets/install/linux.png" width="168" height="200" /><br />
-        Install for Linux</a><br />
+        Linux</a><br />
       </div> 
 
     </div>
