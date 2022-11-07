@@ -4,6 +4,18 @@
   <div class="container bi-padding">
     <div class="row">
     <div class="col-md-6 text-center">
+      <h1>Nature Methods Publication</h1>
+
+      <p class="text-center">
+      <img src="~@/assets/events/nature_methods.png" width="50%" height="50%" />
+      </p>
+      <p class="text-center">
+        The article is available <a href="https://www.nature.com/articles/s41592-022-01642-9">here</a>
+      </p> 
+
+    </div>
+
+    <div class="col-md-6 text-center">
       <h1>BioImage Informatics 2021</h1>
 
       <p class="text-center">
