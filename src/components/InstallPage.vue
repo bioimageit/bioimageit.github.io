@@ -57,6 +57,17 @@ export default {
 }
 </script>
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-39M9ZDB70P"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-39M9ZDB70P');
+      file_download = gtag('event', '<Telechargements_BioImageIT>')
+    </script>
+
 <style scoped>
 .navbar-url {
     border: 1px solid #333333;
