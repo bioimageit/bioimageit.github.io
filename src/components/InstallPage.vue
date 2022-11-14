@@ -7,7 +7,7 @@
         <h1><img src="~@/assets/logo.png" width="70"> <br />BioImageIT Install</h1>
         <br>
         <p>What is your operating system ?</p>
-        <p>(Downloaded {{file_download}} times)</p>
+        <p>(Downloaded {{file_download.value}} times)</p>
         </div>
     </div>
 
