@@ -6,7 +6,7 @@
       <div class="col-12 text-center">
         <h1><img src="~@/assets/logo.png" width="70"> <br />BioImageIT Install</h1>
         <br>
-        <p>Downloaded 77 times</p>
+        <p>Downloaded 79 times</p>
         <p>What is your operating system ?</p>
         </div>
     </div>
