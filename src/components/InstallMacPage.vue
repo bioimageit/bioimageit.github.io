@@ -21,7 +21,7 @@
 
       <p>To install BioImageIT on MacOS, download the installer from <a href="https://github.com/bioimageit/bioimageit-install/raw/v0.1.2/mac/BioImageIT_install.dmg" download>here</a> </p>
       <p>Double click <i>BioImageIT_install.dmg</i> to open it </p>
-      <p>Double click <i>BioImageIT_install</i> to start the install </p>
+      <p>Double click <i>BioImageIT_install</i> to start the install (it will installed by default in <i>username/BioImageIT</i>) </p>
       <p>When the install is finished, BioImageIT is available in the Launchpad</p>
     </div>
     </div>
