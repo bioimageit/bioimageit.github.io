@@ -34,4 +34,9 @@ export default {
 .navbar-url {
     border: 1px solid #333333;
 }
+
+.img-hover:hover {
+    transform:scale(1.05);
+    transition: all 0.5s ease;
+}
 </style>
