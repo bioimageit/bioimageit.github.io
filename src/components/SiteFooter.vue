@@ -4,15 +4,15 @@
     <div class="col-12">
       <div class="text-center bi-founding bi-footer"> 
         <h3>BioImageIT is funded by</h3>
-        <p><a href="https://france-bioimaging.org/"><img src="~@/assets/icons/france-bioimaging_inv.png" alt="" width="300" height="87"/></a></p>
+        <p><a href="https://france-bioimaging.org/"><img class="img-hover" src="~@/assets/icons/france-bioimaging_inv.png" alt="" width="300" height="87"/></a></p>
       </div>  
     </div> 
   </div>
   <div class="row">
     <div class="col-12 text-center">
-      <a href='https://twitter.com/BioimageIT'><img src="~@/assets/icons/twitter.png" width="50" /></a>
+      <a class="img-hover" href='https://twitter.com/BioimageIT'><img src="~@/assets/icons/twitter.png" width="50" /></a>
 
-      <a href='https://www.youtube.com/channel/UCuIsaLnlkZHYqOeXl7en1Qw'><img src="~@/assets/icons/youtube.png" width="50"/> </a>  
+      <a class="img-hover" href='https://www.youtube.com/channel/UCuIsaLnlkZHYqOeXl7en1Qw'><img src="~@/assets/icons/youtube.png" width="50"/> </a>  
     </div>  
 
   </div>  
@@ -41,5 +41,10 @@ export default {
 }
 .bi-space {
   height: 12px;
+}
+
+.img-hover:hover {
+    transform:scale(1.05);
+    transition: all 0.5s ease;
 }
 </style>
