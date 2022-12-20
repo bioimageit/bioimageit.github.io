@@ -7,7 +7,7 @@
       <h1>Nature Methods Publication</h1>
 
       <p class="text-center">
-      <a href="https://www.nature.com/articles/s41592-022-01642-9"><img class="img_hover" src="~@/assets/events/nature_methods.png" width="50%" height="50%" /></a>
+      <a href="https://www.nature.com/articles/s41592-022-01642-9"><img class="img-hover" src="~@/assets/events/nature_methods.png" width="50%" height="50%" /></a>
       </p>
       <p class="text-center">
         The article is available <a href="https://www.nature.com/articles/s41592-022-01642-9">here</a>
@@ -27,7 +27,7 @@
       <h1>MiFoBio 2021</h1>
 
       <p class="text-center">
-      <img src="~@/assets/events/mifobio2021.jpg" width="50%" height="50%" /> 
+      <a href="https://github.com/bioimageit/presentations/raw/main/2021-11-05-bioimageit_mifobio.pdf"><img class="img-hover" src="~@/assets/events/mifobio2021.jpg" width="50%" height="50%" /></a> 
       </p>    
       <p class="text-center">
         The presentation is available <a href="https://github.com/bioimageit/presentations/raw/main/2021-11-05-bioimageit_mifobio.pdf">here</a>
