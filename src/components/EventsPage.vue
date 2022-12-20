@@ -7,7 +7,7 @@
       <h1>Nature Methods Publication</h1>
 
       <p class="text-center">
-      <img src="~@/assets/events/nature_methods.png" width="50%" height="50%" />
+      <a href="https://www.nature.com/articles/s41592-022-01642-9"><img class="img_hover" src="~@/assets/events/nature_methods.png" width="50%" height="50%" /></a>
       </p>
       <p class="text-center">
         The article is available <a href="https://www.nature.com/articles/s41592-022-01642-9">here</a>
@@ -71,5 +71,10 @@ export default {
 }
 .bi-padding{
   padding-bottom: 300px;
+}
+
+.img-hover:hover {
+    transform:scale(1.01);
+    transition: all 0.5s ease;
 }
 </style>
