@@ -70,4 +70,13 @@ export default {
 .bi-space {
   height: 12px;
 }
+
+.bi-nav-item:hover {
+  transform:scale(1.05);
+    transition: all 0.5s ease;
+}
+.bi-nav-item-github:hover {
+  transform:scale(1.05);
+    transition: all 0.5s ease;
+}
 </style>
