@@ -174,7 +174,7 @@ export default {
 }
 
 .img-hover:hover {
-    transform:scale(1.01);
+    transform:scale(1.03);
     transition: all 0.5s ease;
 }
 </style>
