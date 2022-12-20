@@ -10,9 +10,9 @@
   </div>
   <div class="row">
     <div class="col-12 text-center">
-      <a class="img-hover" href='https://twitter.com/BioimageIT'><img src="~@/assets/icons/twitter.png" width="50" /></a>
+      <a href='https://twitter.com/BioimageIT'><img class="img-hover" src="~@/assets/icons/twitter.png" width="50" /></a>
 
-      <a class="img-hover" href='https://www.youtube.com/channel/UCuIsaLnlkZHYqOeXl7en1Qw'><img src="~@/assets/icons/youtube.png" width="50"/> </a>  
+      <a href='https://www.youtube.com/channel/UCuIsaLnlkZHYqOeXl7en1Qw'><img class="img-hover" src="~@/assets/icons/youtube.png" width="50"/> </a>  
     </div>  
 
   </div>  
