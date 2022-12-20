@@ -3,8 +3,8 @@
   <site-navbar></site-navbar>
   <div class="container">
     <div class="row">
-      <div class="col-12 text-center">
-        <h1><img src="~@/assets/logo.png" width="70"> <br />BioImageIT Install</h1>
+      <div class="col-12">
+        <h1>BioImageIT Install</h1>
         <br>
         <p>Downloaded 114 times</p>
         <p>What is your operating system ?</p>
