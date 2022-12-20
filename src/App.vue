@@ -24,10 +24,10 @@ export default {
   font-family: SF Pro Display, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #f0f1f2;
+  color: #414851;
   margin-top: 0px;
   margin-left: 0px;
-  background-color: #414851;
+  background-color: #dce1e6;
   /*min-height: 2000px;*/
 }
 </style>
