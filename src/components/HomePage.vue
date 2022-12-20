@@ -12,7 +12,7 @@
     <div class="text-center">
         <div class="col-12 bi-alt-light">
         <h3>Manage and process data with a simple interface</h3>
-        <img class="img-hover" src="~@/assets/icons/gui.png" width="70%">
+        <img src="~@/assets/icons/gui.png" width="70%">
         <p>
         </p>
         </div>
