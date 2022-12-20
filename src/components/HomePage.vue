@@ -20,6 +20,8 @@
         <br>
         <br>
         <br>
+        <br>
+        <br>
         <h3>Manage and process data with a simple python API </h3>
         <img src="~@/assets/icons/python_lib.png" width="70%">
         </div>
