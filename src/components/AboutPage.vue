@@ -119,7 +119,7 @@
       <a href="https://leomaury.github.io/">
       <img class="img-hover" src="~@/assets/team/lmaury.png" width="200" height="200" /><br />
       L&eacute;o Maury</a><br /> 
-      Engineer &#8211; CNRS
+      Engineer responsible of the deployment &#8211; CNRS
     </div>
 
     </div>
