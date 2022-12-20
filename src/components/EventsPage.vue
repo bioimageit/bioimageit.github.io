@@ -19,7 +19,7 @@
       <h1>BioImage Informatics 2021</h1>
 
       <p class="text-center">
-      <img src="~@/assets/events/poster_bii.png" width="50%" height="50%" />
+      <a href="https://raw.githubusercontent.com/bioimageit/bioimageit.github.io/master/src/assets/events/poster_bii.png"><img class="img-hover" src="~@/assets/events/poster_bii.png" width="50%" height="50%" /></a>
       </p>
 
     </div> 
