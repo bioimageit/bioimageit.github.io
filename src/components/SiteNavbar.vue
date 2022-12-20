@@ -1,7 +1,7 @@
 <template>
 <div>
   <b-navbar class="bi-navbar" toggleable="lg" type="dark" variant="dark">
-    <b-navbar-brand href="/"><span class="bi-brand"><img src="~@/assets/logo.png" width="50px" />BioImageIT</span></b-navbar-brand>
+    <b-navbar-brand href="/"><span class="bi-brand"><img class="img-hover" src="~@/assets/logo.png" width="50px" />BioImageIT</span></b-navbar-brand>
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
     <b-collapse id="nav-collapse" is-nav>
@@ -83,5 +83,9 @@ export default {
 .bi-nav-item-github:hover {
   transform:scale(1.05);
   transition: all 0.5s ease;
+}
+.img-hover:hover {
+    transform:scale(1.03);
+    transition: all 0.5s ease;
 }
 </style>
