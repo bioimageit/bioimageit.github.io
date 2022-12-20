@@ -6,8 +6,8 @@
       <div class="col-12">
         <h1>BioImageIT Install</h1>
         <br>
-        <h2>Downloaded 115 times</h2>
         <h2>What is your operating system ?</h2>
+        <p>Downloaded 115 times</p>
         </div>
     </div>
 
