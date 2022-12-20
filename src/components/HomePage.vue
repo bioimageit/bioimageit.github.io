@@ -4,7 +4,7 @@
     <div class="bi-space"></div>
     <div class="jumbotron text-center bi-header">
         
-        <h1 id="bi-logo"><img class="img-hover" src="~@/assets/logo.png" width="150px" /> BioImageIT</h1>
+        <h1 id="bi-logo"><img src="~@/assets/logo.png" width="150px" /> BioImageIT</h1>
         <p class="bi-subtitle">FAIR BioImage analysis</p>
         <p>FAIR: Findable, Accessible, interoperable, Reusable </p>
     </div>
@@ -23,7 +23,7 @@
         <br>
         <br>
         <h3>Manage and process data with a simple python API </h3>
-        <img class="img-hover" src="~@/assets/icons/python_lib.png" width="70%">
+        <img src="~@/assets/icons/python_lib.png" width="70%">
         </div>
         <div class="col-12 bi-spacer">
         </div>
