@@ -71,12 +71,17 @@ export default {
   height: 12px;
 }
 
+
+.bi-brand:hover {
+  transform:scale(1.05);
+  transition: all 0.5s ease;
+}
 .bi-nav-item:hover {
   transform:scale(1.05);
-    transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 .bi-nav-item-github:hover {
   transform:scale(1.05);
-    transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 </style>
