@@ -96,28 +96,28 @@
 
     <div class="col-md-3 text-center"> 
       <a href="https://sylvainprigent.github.io">
-      <img src="~@/assets/team/sprigent.png" width="200" height="200" /><br />
+      <img class="img-hover" src="~@/assets/team/sprigent.png" width="200" height="200" /><br />
       Sylvain Prigent</a> <br />
       BioImageIT project manager &#8211; Inria <br />
     </div>
 
     <div class="col-md-3 text-center"> 
       <a href="https://leconteludovic.github.io/Webpage/">
-      <img src="~@/assets/team/lleconte.png" width="200" height="200" /><br />
+      <img class="img-hover" src="~@/assets/team/lleconte.png" width="200" height="200" /><br />
       Ludovic Leconte</a><br /> 
       Responsible of the pilot study &#8211; CNRS/Curie <br />
     </div>
 
     <div class="col-md-3 text-center"> 
       <a href="https://cessvala.github.io/">
-      <img src="~@/assets/team/cvalades.png" width="200" height="200" /><br />
+      <img class="img-hover" src="~@/assets/team/cvalades.png" width="200" height="200" /><br />
       Cesar Augusto Valades-Cruz</a><br />
       Engineer &#8211; Inria<br/>
     </div>
 
     <div class="col-md-3 text-center"> 
       <a href="https://leomaury.github.io/">
-      <img src="~@/assets/team/lmaury.png" width="200" height="200" /><br />
+      <img class="img-hover" src="~@/assets/team/lmaury.png" width="200" height="200" /><br />
       L&eacute;o Maury</a><br /> 
       Engineer &#8211; CNRS
     </div>
@@ -127,14 +127,14 @@
 
     <div class="col-md-3 text-center"> 
       <a href="https://science.curie.fr/members/salamero-jean-phd/">
-      <img src="~@/assets/team/jsalamero.png" width="200" height="200" /><br />
+      <img class="img-hover" src="~@/assets/team/jsalamero.png" width="200" height="200" /><br />
       Jean Salamero</a><br /> 
       Head of STED research team &#8211; CNRS/Curie
     </div>
 
     <div class="col-md-3 text-center"> 
       <a href="https://team.inria.fr/serpico/team-members/charles-kervrann-2/">
-      <img src="~@/assets/team/ckervrann.png" width="200" height="200" /><br />
+      <img class="img-hover" src="~@/assets/team/ckervrann.png" width="200" height="200" /><br />
       Charles Kervrann</a><br /> 
       Head of Serpico research team &#8211; Inria<br />
     </div>
@@ -171,5 +171,10 @@ export default {
 <style scoped>
 .bi-spacer{
   height: 50px;
+}
+
+.img-hover:hover {
+    transform:scale(1.01);
+    transition: all 0.5s ease;
 }
 </style>
