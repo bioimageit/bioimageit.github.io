@@ -12,7 +12,7 @@
     
       <h2>The BioImageIT project</h2>
       
-      Started in 2019 with France-BioImaging, the BioImageIT project aims at providing a middleware that integrates data management with analysis using existing softwares (Omero, BioFormats, Fiji, napari, Scipy, pytorch...)
+      Started in 2019 with France-BioImaging, the BioImageIT project aims at providing a middleware that integrates data management with analysis using existing softwares (Omero, BioFormats, Fiji, napari, Scipy, pytorch...).
       The BioImageIT software is open-source and available at <a href="https://github.com/bioimageit">https://github.com/bioimageit</a>
       
           <div class="bi-spacer">
