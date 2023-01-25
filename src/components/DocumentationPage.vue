@@ -43,7 +43,7 @@
                     <p>Design a pipeline</p>
                 </div>
                 </a>
-                <p>The python library tutorials are available as Jupyter notebooks <a href="https://github.com/bioimageit/bioimageit-notebooks"> here</a></p>
+                <p>The python library tutorials are available as Jupyter notebooks <a class="bi-link" href="https://github.com/bioimageit/bioimageit-notebooks"> here</a></p>
             </div>
         </div>
         <div class="col-12 bi-padding">
@@ -67,7 +67,7 @@
                     <p>Write a runner plugin</p>
                 </div>
                 </a>
-                <p>The full developer documentation is available <a href="https://bioimageit.github.io/bioimageit_core/index.html"> here</a></p>
+                <p>The full developer documentation is available <a class="bi-link" href="https://bioimageit.github.io/bioimageit_core/index.html"> here</a></p>
             </div>
         </div>
       </div>
