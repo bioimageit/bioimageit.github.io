@@ -101,10 +101,10 @@
           </ul>  
         </li>
         <li>
-          Reporting issues on the BioImageIT project <a href="https://github.com/bioimageit/bioimageit/issues">issue page</a>
+          Reporting issues on the BioImageIT project <a class="bi-link" href="https://github.com/bioimageit/bioimageit/issues">issue page</a>
         </li>  
         <li>
-          Discussing design and new features in the <a href="https://github.com/bioimageit/bioimageit/issues">issue page</a>
+          Discussing design and new features in the <a class="bi-link" href="https://github.com/bioimageit/bioimageit/issues">issue page</a>
         </li>  
         <li>
           Developing BioImageIT plugins (<a class="bi-link" href="https://bioimageit.github.io/bioimageit_core/tutorial_write_a_runner_plugin.html">runner plugins</a>, <a class="bi-link" href="https://bioimageit.github.io/bioimageit_core/tutorial_write_a_data_plugin.html">data plugins</a>)
@@ -190,7 +190,7 @@ export default {
 .img-hover:hover {
   transform:scale(1.03);
   filter: drop-shadow(1px 1px #227db6);
-  transition: all 0.5s ease;
+  transition: all 0.1s ease;
 }
 
 .bi-link {

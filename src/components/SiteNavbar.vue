@@ -78,21 +78,32 @@ export default {
 .bi-brand:hover {
   transform:scale(1.03);
   filter: drop-shadow(1px 1px #227db6);
-  transition: all 0.5s ease;
+  transition: all 0.1s ease;
 }
 .bi-nav-item:hover {
   transform:scale(1.03);
   filter: drop-shadow(1px 1px #227db6);
-  transition: all 0.5s ease;
+  transition: all 0.1s ease;
 }
 .bi-nav-item-github:hover {
   transform:scale(1.03);
   filter: drop-shadow(1px 1px #227db6);
-  transition: all 0.5s ease;
+  transition: all 0.1s ease;
 }
 .img-hover:hover {
     transform:scale(1.03);
     filter: drop-shadow(1px 1px #227db6);
-    transition: all 0.5s ease;
+    transition: all 0.1s ease;
+}
+
+.bi-link {
+  text-decoration: none;
+  color: #227db6;
+}
+
+.bi-link:hover {
+  color: #0071C3;
+  filter: drop-shadow(1px 1px #227db6);
+  transition: all 0.1s ease;
 }
 </style>

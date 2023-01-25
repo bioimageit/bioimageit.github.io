@@ -18,19 +18,19 @@
       </div> 
       <div class="col-md-4 text-center"> 
         <a href="#/install-windows">
-        <img class="img-hover" src="~@/assets/install/windows.png" width="200" height="200" /><br />
+        <img class="img-hover bi-link" src="~@/assets/install/windows.png" width="200" height="200" /><br />
         Windows</a><br />
       </div>  
 
       <div class="col-md-4 text-center"> 
         <a href="#/install-mac">
-        <img class="img-hover" src="~@/assets/install/apple.png" width="200" height="200" /><br />
+        <img class="img-hover bi-link" src="~@/assets/install/apple.png" width="200" height="200" /><br />
         MacOS</a><br />
       </div> 
 
       <div class="col-md-4 text-center"> 
         <a href="#/install-linux">
-        <img class="img-hover" src="~@/assets/install/linux.png" width="168" height="200" /><br />
+        <img class="img-hover bi-link" src="~@/assets/install/linux.png" width="168" height="200" /><br />
         Linux</a><br />
       </div> 
 
@@ -71,6 +71,17 @@ export default {
 .img-hover:hover {
     transform:scale(1.03);
     filter: drop-shadow(1px 1px #227db6);
-    transition: all 0.5s ease;
+    transition: all 0.1s ease;
+}
+
+.bi-link {
+  text-decoration: none;
+  color: #227db6;
+}
+
+.bi-link:hover {
+  color: #0071C3;
+  filter: drop-shadow(1px 1px #227db6);
+  transition: all 0.1s ease;
 }
 </style>

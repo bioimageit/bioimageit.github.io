@@ -7,19 +7,15 @@
       <h1>Nature Methods Publication</h1>
 
       <p class="text-center">
-      <a class="bi-link" href="https://www.nature.com/articles/s41592-022-01642-9"><img class="img-hover" src="~@/assets/events/nature_methods.png" width="50%" height="70%" /></a>
-      </p>
-      <p class="text-center">
-        The article is available <a href="https://www.nature.com/articles/s41592-022-01642-9">here</a>
+      <a class="bi-link" href="https://www.nature.com/articles/s41592-022-01642-9"><img class="img-hover" src="~@/assets/events/nature_methods.png" width="200" height="270" /></a>
       </p> 
-
     </div>
 
     <div class="col-md-6 text-center">
       <h1>BioImage Informatics 2021</h1>
 
       <p class="text-center">
-      <a class="bi-link" href="https://raw.githubusercontent.com/bioimageit/bioimageit.github.io/master/src/assets/events/poster_bii.png"><img class="img-hover" src="~@/assets/events/poster_bii.png" width="50%" height="50%" /></a>
+      <a class="bi-link" href="https://raw.githubusercontent.com/bioimageit/bioimageit.github.io/master/src/assets/events/poster_bii.png"><img class="img-hover" src="~@/assets/events/poster_bii.png" width="200" height="270" /></a>
       </p>
 
     </div> 
@@ -27,11 +23,8 @@
       <h1>MiFoBio 2021</h1>
 
       <p class="text-center">
-      <a class="bi-link" href="https://github.com/bioimageit/presentations/raw/main/2021-11-05-bioimageit_mifobio.pdf"><img class="img-hover" src="~@/assets/events/mifobio2021.jpg" width="50%" height="50%" /></a> 
-      </p>    
-      <p class="text-center">
-        The presentation is available <a href="https://github.com/bioimageit/presentations/raw/main/2021-11-05-bioimageit_mifobio.pdf">here</a>
-      </p>  
+      <a class="bi-link" href="https://github.com/bioimageit/presentations/raw/main/2021-11-05-bioimageit_mifobio.pdf"><img class="img-hover" src="~@/assets/events/mifobio2021.jpg" width="200" height="270" /></a> 
+      </p> 
       </div>
     </div>
     <div class="col-md-6 text-center">
@@ -76,7 +69,7 @@ export default {
 .img-hover:hover {
   transform:scale(1.03);
   filter: drop-shadow(1px 1px #227db6);
-  transition: all 0.5s ease;
+  transition: all 0.1s ease;
 }
 
 .bi-link {
