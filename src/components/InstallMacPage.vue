@@ -19,10 +19,10 @@
     <div class="bi-install">
     <h1>MacOS install</h1>
 
-      <p>To install BioImageIT on MacOS (COMPATIBLE WITH INTEL MACS, WE WOULD APPRECIATE SOME FEEDBACK IF YOU HAVE A M1 MAC), download the installer from <a href="https://github.com/bioimageit/bioimageit-install/raw/v0.1.2/mac/BioImageIT_install.dmg" download>here</a> </p>
-      <p>Double click <i>BioImageIT_install.dmg</i> to open it </p>
-      <p>Double click <i>BioImageIT_install</i> to start the install (it will be installed by default in <i>username/BioImageIT</i>) </p>
-      <p>When the install is finished, BioImageIT is available in the Launchpad</p>
+      <p>To install BioImageIT on MacOS (COMPATIBLE WITH INTEL MACS, WE WOULD APPRECIATE SOME FEEDBACK IF YOU HAVE A M1 MAC), download the installer from <a class="bi-link" href="https://github.com/bioimageit/bioimageit-install/raw/v0.1.2/mac/BioImageIT_install.dmg" download>here</a>, </p>
+      <p>Double click <i>BioImageIT_install.dmg</i> to open it, </p>
+      <p>Double click <i>BioImageIT_install</i> to start the install (it will be installed by default in <i>username/BioImageIT</i>), </p>
+      <p>When the install is finished, BioImageIT is available in the Launchpad.</p>
     </div>
     </div>
     <site-footer></site-footer> 
@@ -55,5 +55,22 @@ export default {
 }
 .bi-spacer{
   height: 150px;
+}
+
+.img-hover:hover {
+  transform:scale(1.03);
+  filter: drop-shadow(1px 1px #227db6);
+  transition: all 0.5s ease;
+}
+
+.bi-link {
+  text-decoration: none;
+  color: #227db6;
+}
+
+.bi-link:hover {
+  color: #0071C3;
+  filter: drop-shadow(1px 1px #227db6);
+  transition: all 0.1s ease;
 }
 </style>

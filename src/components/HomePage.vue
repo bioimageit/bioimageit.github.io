@@ -86,7 +86,19 @@ export default {
 }
 
 .img-hover:hover {
-    transform:scale(1.01);
-    transition: all 0.5s ease;
+  transform:scale(1.03);
+  filter: drop-shadow(1px 1px #227db6);
+  transition: all 0.5s ease;
+}
+
+.bi-link {
+  text-decoration: none;
+  color: #227db6;
+}
+
+.bi-link:hover {
+  color: #0071C3;
+  filter: drop-shadow(1px 1px #227db6);
+  transition: all 0.1s ease;
 }
 </style>

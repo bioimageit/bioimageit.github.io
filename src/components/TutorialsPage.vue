@@ -94,4 +94,15 @@ export default {
 .bi-padding{
     padding-bottom: 100px;
 }
+
+.bi-tile:hover {
+    transform:scale(1.03);
+    filter: drop-shadow(1px 1px #227db6);
+    transition: all 0.5s ease;
+}
+.bi-tile-link:hover {
+    transform:scale(1.03);
+    filter: drop-shadow(1px 1px #227db6);
+    transition: all 0.5s ease;
+}
 </style>

@@ -13,18 +13,18 @@
       <h2>The BioImageIT project</h2>
       
       Started in 2019 with France-BioImaging, the BioImageIT project aims at providing a middleware that integrates data management with analysis using existing softwares (Omero, BioFormats, Fiji, napari, Scipy, pytorch...).
-      The BioImageIT software is open-source and available at <a href="https://github.com/bioimageit">https://github.com/bioimageit</a>
+      The BioImageIT software is open-source and available at <a class="bi-link" href="https://github.com/bioimageit">https://github.com/bioimageit</a>
       
           <div class="bi-spacer">
     </div> 
       <h2>Road map</h2>
-      BioImageIT is being developed within the framework of the France BioImaging National Research Infrastructure (FBI). As a first step of deployment, this project is supported by the Research Infrastructure, until the end of 2023. For the 2 years, two engineers are dedicated to the deployment and maintenance of BioImageIT, as well as the integration of new software. BioImageIT is now being deployed on ten imaging platforms of the France-BioImaging national infrastructure. A plan and schedule have been validated for funding by the FBI steering committee (<a href="https://france-bioimaging.org/france-bioimaging-funding-decision/fbi-internal-call-2021-technology-transfer-results/">https://france-bioimaging.org/france-bioimaging-funding-decision/fbi-internal-call-2021-technology-transfer-results/</a>) and can be accessed through <a href="https://github.com/bioimageit/bioimageit.github.io/raw/master/src/components/AO-FBI-tech-transfer-BioImage-ITbis.pdf">this link</a>. 
+      BioImageIT is being developed within the framework of the France BioImaging National Research Infrastructure (FBI). As a first step of deployment, this project is supported by the Research Infrastructure, until the end of 2023. For the 2 years, two engineers are dedicated to the deployment and maintenance of BioImageIT, as well as the integration of new software. BioImageIT is now being deployed on ten imaging platforms of the France-BioImaging national infrastructure. A plan and schedule have been validated for funding by the FBI steering committee (<a href="https://france-bioimaging.org/france-bioimaging-funding-decision/fbi-internal-call-2021-technology-transfer-results/">https://france-bioimaging.org/france-bioimaging-funding-decision/fbi-internal-call-2021-technology-transfer-results/</a>) and can be accessed through <a class="bi-link" href="https://github.com/bioimageit/bioimageit.github.io/raw/master/src/components/AO-FBI-tech-transfer-BioImage-ITbis.pdf">this link</a>. 
 
     <!--
       <h2>The BioImageIT project</h2>
 
       <p><i>
-      Open science and <a href="https://www.go-fair.org/fair-principles/">FAIR principles</a> became major topics in the field of microscopy 
+      Open science and <a class="bi-link" href="https://www.go-fair.org/fair-principles/">FAIR principles</a> became major topics in the field of microscopy 
       for biology. This is due to both the new data 
       acquisition technologies like super-resolution microscopy and lightsheet microscopy that generate large datasets and also to 
       the new data analysis technologies like deep learning that automate data mining with high accuracy. Nevertheless data are rarely 
@@ -32,7 +32,7 @@
       BioImageIT an open source framework that allows to automate the data management by integrating it with data processing. Scientists 
       then only need to import their data once in BioImageIT, and then BioImageIT automatically generate and manage the metadata every time 
       an operation is performed on the data. This accelerate the data mining process since the scientist does not need any more to deal with 
-      IT integration and manual analysis and annotations. BioImageIT automatically implements <a href="https://www.go-fair.org/fair-principles/">FAIR principles</a>.
+      IT integration and manual analysis and annotations. BioImageIT automatically implements <a class="bi-link" href="https://www.go-fair.org/fair-principles/">FAIR principles</a>.
       </i></p>
 
       <p>
@@ -68,7 +68,7 @@
         Unify data management with Data analysis. Most of the open sources bio-image software are specialized in either data management or data analysis. Users 
         then need to write scripts or need to do a lot of manual operations to achieve both data processing and management. BioImageIT main feature allows to import 
         and tag data for each experiment. Then every single operations on data automatically generates metadata that allows to keep track of any processing or analysis 
-        and then meet the <a href="https://www.go-fair.org/fair-principles/">FAIR principles</a> without any supplementary effort from the users.
+        and then meet the <a class="bi-link" href="https://www.go-fair.org/fair-principles/">FAIR principles</a> without any supplementary effort from the users.
         </li>  
         <li>
         Software interoperability and reusability. BioImageIT processing tools are packaged within Docker containers. Users can then create data analysis workflow with 
@@ -95,28 +95,28 @@
     <div class="row">
 
     <div class="col-md-3 text-center"> 
-      <a href="https://sylvainprigent.github.io">
+      <a class="bi-link" href="https://sylvainprigent.github.io">
       <img class="img-hover" src="~@/assets/team/sprigent.png" width="200" height="200" /><br />
       Sylvain Prigent</a> <br />
       BioImageIT project manager &#8211; Inria <br />
     </div>
 
     <div class="col-md-3 text-center"> 
-      <a href="https://leconteludovic.github.io/Webpage/">
+      <a class="bi-link" href="https://leconteludovic.github.io/Webpage/">
       <img class="img-hover" src="~@/assets/team/lleconte.png" width="200" height="200" /><br />
       Ludovic Leconte</a><br /> 
       Responsible of the pilot study &#8211; CNRS/Curie <br />
     </div>
 
     <div class="col-md-3 text-center"> 
-      <a href="https://cessvala.github.io/">
+      <a class="bi-link" href="https://cessvala.github.io/">
       <img class="img-hover" src="~@/assets/team/cvalades.png" width="200" height="200" /><br />
       Cesar Augusto Valades-Cruz</a><br />
       Engineer &#8211; Inria<br/>
     </div>
 
     <div class="col-md-3 text-center"> 
-      <a href="https://leomaury.github.io/">
+      <a class="bi-link" href="https://leomaury.github.io/">
       <img class="img-hover" src="~@/assets/team/lmaury.png" width="200" height="200" /><br />
       L&eacute;o Maury</a><br /> 
       Engineer responsible of the deployment &#8211; CNRS
@@ -126,14 +126,14 @@
     <div class="row justify-content-md-center">
 
     <div class="col-md-3 text-center"> 
-      <a href="https://science.curie.fr/members/salamero-jean-phd/">
+      <a class="bi-link" href="https://science.curie.fr/members/salamero-jean-phd/">
       <img class="img-hover" src="~@/assets/team/jsalamero.png" width="200" height="200" /><br />
       Jean Salamero</a><br /> 
       Head of STED research team &#8211; CNRS/Curie
     </div>
 
     <div class="col-md-3 text-center"> 
-      <a href="https://team.inria.fr/serpico/team-members/charles-kervrann-2/">
+      <a class="bi-link" href="https://team.inria.fr/serpico/team-members/charles-kervrann-2/">
       <img class="img-hover" src="~@/assets/team/ckervrann.png" width="200" height="200" /><br />
       Charles Kervrann</a><br /> 
       Head of Serpico research team &#8211; Inria<br />
@@ -174,7 +174,19 @@ export default {
 }
 
 .img-hover:hover {
-    transform:scale(1.03);
-    transition: all 0.5s ease;
+  transform:scale(1.03);
+  filter: drop-shadow(1px 1px #227db6);
+  transition: all 0.5s ease;
+}
+
+.bi-link {
+  text-decoration: none;
+  color: #227db6;
+}
+
+.bi-link:hover {
+  color: #0071C3;
+  filter: drop-shadow(1px 1px #227db6);
+  transition: all 0.1s ease;
 }
 </style>

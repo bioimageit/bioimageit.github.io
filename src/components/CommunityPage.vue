@@ -23,7 +23,7 @@
         Being <b>user-focused</b>. The user experience is the main objective of the BioImageIT project. GUI design, core development, software integration and documentation should be guided by the wish to make bioimage management and analysis easy for all scientists.
         </li>
         <li>
-        Being <b>cross-platform</b>. BioImageIT should run on the most used <b>operating systems</b> (Windows, MacOS, Linux) and integrate existing tools without distinguishing their original <b>programing language</b> (c++, java, python…)   
+        Being <b>cross-platform</b>. BioImageIT should run on the most used <b>operating systems</b> (Windows, MacOS, Linux) and integrate existing tools without distinguishing their original <b>programing language</b> (c++, java, python…).  
         </li>
         <li>
         <b>Not reinventing the wheel</b>. All database management systems or data analysis tools should not be developed in the core code of BioImageIT but implemented as external plugins or wrappers to connect BioImageIT with existing open source software.
@@ -71,8 +71,8 @@
       BioImageIT is being developed within the framework of the France BioImaging National Research Infrastructure (FBI). In the first step of deployment, this project is supported 
       by the Research Infrastructure until end of 2023. During the next 2 years, two engineers will focus on the deployment and maintenance of BioImageIT, as well as the 
       integration of new software. BioImageIT is being deployed within ten imaging platforms which are components of the France-BioImaging national infrastructure. A plan and 
-      schedule have been validated by the FBI steering committee for funding (<a href="https://france-bioimaging.org/france-bioimaging-funding-decision/fbi-internal-call-2021-technology-transfer-results/">https://france-bioimaging.org/france-bioimaging-funding-decision/fbi-internal-call-2021-technology-transfer-results/</a>) 
-      and can be accessed through <a href="https://github.com/bioimageit/bioimageit.github.io/raw/master/src/components/AO-FBI-tech-transfer-BioImage-ITbis.pdf">this link</a>. 
+      schedule have been validated by the FBI steering committee for funding (<a class="bi-link" href="https://france-bioimaging.org/france-bioimaging-funding-decision/fbi-internal-call-2021-technology-transfer-results/">https://france-bioimaging.org/france-bioimaging-funding-decision/fbi-internal-call-2021-technology-transfer-results/</a>) 
+      and can be accessed through <a class="bi-link" href="https://github.com/bioimageit/bioimageit.github.io/raw/master/src/components/AO-FBI-tech-transfer-BioImage-ITbis.pdf">this link</a>. 
 
 
       <h3>Governance model</h3>
@@ -94,10 +94,10 @@
         <li>
           Proposing a change to the code using GitHub pull request in any repository of the BioImageIT project
           <ul>
-            <li><a href="https://github.com/bioimageit/bioimageit_core/pulls">bioimageit_core pull request</a></li> 
-            <li><a href="https://github.com/bioimageit/bioimageit_gui/pulls">bioimageit_gui pull request</a></li> 
-            <li><a href="https://github.com/bioimageit/bioimageit_formats/pulls">bioimageit_formats pull request</a></li> 
-            <li><a href="https://github.com/bioimageit/bioimageit_viewer/pulls">bioimageit_viewer pull request</a></li> 
+            <li><a class="bi-link" href="https://github.com/bioimageit/bioimageit_core/pulls">bioimageit_core pull request</a></li> 
+            <li><a class="bi-link" href="https://github.com/bioimageit/bioimageit_gui/pulls">bioimageit_gui pull request</a></li> 
+            <li><a class="bi-link" href="https://github.com/bioimageit/bioimageit_formats/pulls">bioimageit_formats pull request</a></li> 
+            <li><a class="bi-link" href="https://github.com/bioimageit/bioimageit_viewer/pulls">bioimageit_viewer pull request</a></li> 
           </ul>  
         </li>
         <li>
@@ -107,10 +107,10 @@
           Discussing design and new features in the <a href="https://github.com/bioimageit/bioimageit/issues">issue page</a>
         </li>  
         <li>
-          Developing BioImageIT plugins (<a href="https://bioimageit.github.io/bioimageit_core/tutorial_write_a_runner_plugin.html">runner plugins</a>, <a href="https://bioimageit.github.io/bioimageit_core/tutorial_write_a_data_plugin.html">data plugins</a>)
+          Developing BioImageIT plugins (<a class="bi-link" href="https://bioimageit.github.io/bioimageit_core/tutorial_write_a_runner_plugin.html">runner plugins</a>, <a class="bi-link" href="https://bioimageit.github.io/bioimageit_core/tutorial_write_a_data_plugin.html">data plugins</a>)
         </li>  
         <li>
-          Developing <a href="https://bioimageit.github.io/bioimageit_core/tutorial_wrap_a_tool.html">data processing wrappers</a> 
+          Developing <a class="bi-link" href="https://bioimageit.github.io/bioimageit_core/tutorial_wrap_a_tool.html">data processing wrappers</a> 
         </li>  
       </ul>      
       </p>  
@@ -120,7 +120,7 @@
       Core developers are community members who have demonstrated a continuing commitment to the project through ongoing contributions. They have shown that they can be 
       trusted to maintain BioImageIT with care. Becoming a core developer allows contributors to merge approved pull requests, cast votes for and against merging a pull-request, 
       and be involved in deciding major changes to the API, and thereby making it easier to continue  their project related activities. Core developers appear as organization 
-      members on the <a href="https://github.com/orgs/bioimageit/people">BioImageIT GitHub organization</a>. New core developers can be nominated by any existing core developer.
+      members on the <a class="bi-link" href="https://github.com/orgs/bioimageit/people">BioImageIT GitHub organization</a>. New core developers can be nominated by any existing core developer.
       </p>  
 
       <h3>Steering Council</h3>
@@ -145,7 +145,7 @@
       </div>
     <h2>Licensing</h2> 
 
-    BioImageIT is distributed under the BSD-4-clause license, a copy is available <a href="https://raw.githubusercontent.com/bioimageit/bioimageit/main/LICENSE">here</a>. We notice 
+    BioImageIT is distributed under the BSD-4-clause license, a copy is available <a class="bi-link" href="https://raw.githubusercontent.com/bioimageit/bioimageit/main/LICENSE">here</a>. We notice 
     that BioImageIT plugins or wrapped tools may use different licenses. Please refer to the repositories of each plugin and wrapper to verify their license.
 
     <div class="bi-spacer">
@@ -185,5 +185,22 @@ export default {
 <style scoped>
 .bi-spacer{
   height: 50px;
+}
+
+.img-hover:hover {
+  transform:scale(1.03);
+  filter: drop-shadow(1px 1px #227db6);
+  transition: all 0.5s ease;
+}
+
+.bi-link {
+  text-decoration: none;
+  color: #227db6;
+}
+
+.bi-link:hover {
+  color: #0071C3;
+  filter: drop-shadow(1px 1px #227db6);
+  transition: all 0.1s ease;
 }
 </style>

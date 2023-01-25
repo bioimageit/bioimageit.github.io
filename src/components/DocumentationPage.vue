@@ -8,13 +8,13 @@
         <div class="col-12 bi-padding">
             <h2>Use BioImageIT with the graphical interfaces</h2>
             <div class="row justify-content-center">
-                <a href="https://bioimageit.github.io/bioimageit_gui/tutorial_data_management.html" class="bi-tile-link">
+                <a class="bi-link" href="https://bioimageit.github.io/bioimageit_gui/tutorial_data_management.html" class="bi-tile-link">
                 <div class="col-sm bi-tile">
                     <img class="img-hover" src="~@/assets/icons/tutorial_icon_white.png" alt="tutorial" width="150px">
                     <p>Data management</p>
                 </div>
                 </a>
-                <a href="https://bioimageit.github.io/bioimageit_gui/tutorial_data_analysis.html" class="bi-tile-link">
+                <a class="bi-link" href="https://bioimageit.github.io/bioimageit_gui/tutorial_data_analysis.html" class="bi-tile-link">
                 <div class="col-sm bi-tile">
                     <img class="img-hover" src="~@/assets/icons/tutorial_icon_white.png" alt="tutorial" width="150px">
                     <p>Data analysis</p>
@@ -25,19 +25,19 @@
         <div class="col-12 bi-padding">
             <h2>Use BioImageIT with the python API</h2>
             <div class="row justify-content-center">
-                <a href="https://github.com/bioimageit/bioimageit-notebooks/blob/main/tutorial1-experiment.ipynb" class="bi-tile-link">
+                <a class="bi-link" href="https://github.com/bioimageit/bioimageit-notebooks/blob/main/tutorial1-experiment.ipynb" class="bi-tile-link">
                 <div class="col-sm bi-tile">
                     <img class="img-hover" src="~@/assets/icons/tutorial_icon_white.png" alt="tutorial" width="150px">
                     <p>Create an experiment</p>
                 </div>
                 </a>
-                <a href="https://github.com/bioimageit/bioimageit-notebooks/blob/main/tutorial2-runner.ipynb" class="bi-tile-link">
+                <a class="bi-link" href="https://github.com/bioimageit/bioimageit-notebooks/blob/main/tutorial2-runner.ipynb" class="bi-tile-link">
                 <div class="col-sm bi-tile">
                     <img class="img-hover" src="~@/assets/icons/tutorial_icon_white.png" alt="tutorial" width="150px">
                     <p>Run a data processing tool</p>
                 </div>
                 </a>
-                <a href="https://github.com/bioimageit/bioimageit-notebooks/blob/main/tutorial3-pipeline.ipynb" class="bi-tile-link">
+                <a class="bi-link" href="https://github.com/bioimageit/bioimageit-notebooks/blob/main/tutorial3-pipeline.ipynb" class="bi-tile-link">
                 <div class="col-sm bi-tile">
                     <img class="img-hover" src="~@/assets/icons/tutorial_icon_white.png" alt="tutorial" width="150px">
                     <p>Design a pipeline</p>
@@ -49,19 +49,19 @@
         <div class="col-12 bi-padding">
             <h2>Use BioImageIT as a developer</h2>
             <div class="row justify-content-center">
-                <a href="https://bioimageit.github.io/bioimageit_core/tutorial_wrap_a_tool.html" class="bi-tile-link">
+                <a class="bi-link" href="https://bioimageit.github.io/bioimageit_core/tutorial_wrap_a_tool.html" class="bi-tile-link">
                 <div class="col-sm bi-tile">
                     <img class="img-hover" src="~@/assets/icons/tutorial_icon_white.png" alt="tutorial" width="150px">
                     <p>Write a tool wraper</p>
                 </div>
                 </a>
-                <a href="https://bioimageit.github.io/bioimageit_core/tutorial_write_a_data_plugin.html" class="bi-tile-link">
+                <a class="bi-link" href="https://bioimageit.github.io/bioimageit_core/tutorial_write_a_data_plugin.html" class="bi-tile-link">
                 <div class="col-sm bi-tile">
                     <img class="img-hover" src="~@/assets/icons/tutorial_icon_white.png" alt="tutorial" width="150px">
                     <p>Write a data plugin</p>
                 </div>
                 </a>
-                <a href="https://bioimageit.github.io/bioimageit_core/tutorial_write_a_runner_plugin.html" class="bi-tile-link">
+                <a class="bi-link" href="https://bioimageit.github.io/bioimageit_core/tutorial_write_a_runner_plugin.html" class="bi-tile-link">
                 <div class="col-sm bi-tile">
                     <img class="img-hover" src="~@/assets/icons/tutorial_icon_white.png" alt="tutorial" width="150px">
                     <p>Write a runner plugin</p>
@@ -108,7 +108,19 @@ export default {
 }
 
 .img-hover:hover {
-    transform:scale(1.03);
-    transition: all 0.5s ease;
+  transform:scale(1.03);
+  filter: drop-shadow(1px 1px #227db6);
+  transition: all 0.5s ease;
+}
+
+.bi-link {
+  text-decoration: none;
+  color: #227db6;
+}
+
+.bi-link:hover {
+  color: #0071C3;
+  filter: drop-shadow(1px 1px #227db6);
+  transition: all 0.1s ease;
 }
 </style>
