@@ -4,16 +4,16 @@
     <div class="col-12">
       <div class="text-center bi-founding bi-footer"> 
         <h3>BioImageIT is funded by</h3>
-        <p><a href="https://france-bioimaging.org/"><img class="img-hover" src="~@/assets/icons/france-bioimaging_inv.png" alt="" width="300" height="87"/></a></p>
+        <p><a target="_blank" href="https://france-bioimaging.org/"><img class="img-hover" src="~@/assets/icons/france-bioimaging_inv.png" alt="" width="300" height="87"/></a></p>
       </div>  
     </div> 
   </div>
   <div class="row">
     <div class="col-12 text-center">
       <h3>Contact us</h3>
-      <a href='mailto:bioimageit@gmail.com'><img class="img-hover" src="~@/assets/icons/email.png" width="50" /></a>
-      <a href='https://twitter.com/BioimageIT'><img class="img-hover" src="~@/assets/icons/twitter.png" width="50" /></a>
-      <a href='https://www.youtube.com/channel/UCuIsaLnlkZHYqOeXl7en1Qw'><img class="img-hover" src="~@/assets/icons/youtube.png" width="50"/> </a>  
+      <a target="_blank" href='mailto:bioimageit@gmail.com'><img class="img-hover" src="~@/assets/icons/email.png" width="50" /></a>
+      <a target="_blank" href='https://twitter.com/BioimageIT'><img class="img-hover" src="~@/assets/icons/twitter.png" width="50" /></a>
+      <a target="_blank" href='https://www.youtube.com/channel/UCuIsaLnlkZHYqOeXl7en1Qw'><img class="img-hover" src="~@/assets/icons/youtube.png" width="50"/> </a>  
     </div>  
 
   </div>  
