@@ -34,6 +34,8 @@ export default {
 .bi-footer {
   background-color: #5A626C;
   padding-bottom: 50px;
+  border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
 }
 .bi-founding {
     color: #f0f1f2;
