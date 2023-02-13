@@ -57,6 +57,8 @@ export default {
   background-color: #5A626C;
   backdrop-filter: blur(20px);
   position: sticky;
+  border-bottom-left-radius: 7px;
+	border-bottom-right-radius: 7px;
 }
 
 .bi-brand {
