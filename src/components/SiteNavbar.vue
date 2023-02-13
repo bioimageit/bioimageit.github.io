@@ -58,7 +58,7 @@ export default {
   backdrop-filter: blur(20px);
   position: sticky;
   border-bottom-left-radius: 7px;
-	border-bottom-right-radius: 7px;
+  border-bottom-right-radius: 7px;
 }
 
 .bi-brand {
