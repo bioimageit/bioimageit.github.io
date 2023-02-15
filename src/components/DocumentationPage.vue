@@ -97,10 +97,10 @@ export default {
     cursor: pointer;
     text-align: center;
     background-color: #5A626C;
-    border-top-left-radius: 7px;
-	border-top-right-radius: 7px;
-    border-bottom-left-radius: 7px;
-	border-bottom-right-radius: 7px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 .bi-tile-link {
     min-width: 300px;
