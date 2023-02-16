@@ -54,7 +54,7 @@ export default {
 <style scoped>
 .bi-navbar {
   display: flex;
-  background-color: #5A626C;
+  background-color: #dce1e6;
   backdrop-filter: blur(20px);
   position: sticky;
   border-bottom-left-radius: 10px;
