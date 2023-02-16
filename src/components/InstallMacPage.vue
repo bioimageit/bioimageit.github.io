@@ -5,7 +5,7 @@
  
      <div class="row">
       <div class="col-12 text-center">
-        <h1><img src="~@/assets/install/apple.png" width="70"> <br />BioImageIT Install</h1>
+        <h1><img src="~@/assets/install/apple.png" width="70"> <br />Install BioImageIT on macOS</h1>
         </div>
     </div>
     <div class="alert-warning">
