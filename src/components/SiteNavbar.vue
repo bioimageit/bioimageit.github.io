@@ -67,6 +67,7 @@ export default {
 }
 .bi-nav-item {
     text-transform: uppercase;
+    color: #d1d6db;
 }
 .bi-nav-item-github {
     margin-top: 5px;
