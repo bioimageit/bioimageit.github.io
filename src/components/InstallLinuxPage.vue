@@ -66,7 +66,6 @@ export default {
 	padding-right: 50px;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	width: 85%;
 	background-color: rgba(255,255,255,.3);
 	border-radius: 10px;
 	text-align: justify;
