@@ -1,6 +1,6 @@
 <template>
 <div>
-  <b-navbar class="bi-navbar" toggleable="lg" type="dark" variant="dark">
+  <b-navbar class="bi-navbar" toggleable="lg">
     <b-navbar-brand href="/"><span class="bi-brand"><img class="img-hover" src="~@/assets/logo.png" width="50px" />BioImageIT</span></b-navbar-brand>
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
