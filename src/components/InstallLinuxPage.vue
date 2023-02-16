@@ -4,7 +4,7 @@
   <div class="container">
      <div class="row">
       <div class="col-12 text-center">
-        <h1><img src="~@/assets/logo.png" width="70"> <br />BioImageIT Install</h1>
+        <h1><img src="~@/assets/install/linux.png" width="70"> <br />BioImageIT Install</h1>
         </div>
     </div>
    <div class="alert-warning">
