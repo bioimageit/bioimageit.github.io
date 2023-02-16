@@ -66,6 +66,10 @@ export default {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     background-color: #343a40;
+    box-shadow: 20px 20px 60px #343a40,
+              -20px -20px 60px #343a40;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .navbar-url {
