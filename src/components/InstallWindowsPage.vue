@@ -47,7 +47,6 @@ export default {
 
 <style scoped>
 .sticky {
-	display: flex;
 	position: sticky;
 	background-color: #343a40;
 	backdrop-filter: blur(20px);
