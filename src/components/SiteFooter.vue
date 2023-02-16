@@ -9,7 +9,7 @@
     </div> 
   </div>
   <div class="row">
-    <div class="col-12 text-center">
+    <div class="col-12 text-center footer-text">
       <h3>Contact us</h3>
       <a target="_blank" href='mailto:bioimageit@gmail.com'><img class="img-hover" src="~@/assets/icons/email.png" width="50" /></a>
       <a target="_blank" href='https://twitter.com/BioimageIT'><img class="img-hover" src="~@/assets/icons/twitter.png" width="50" /></a>
@@ -38,12 +38,15 @@ export default {
   border-top-right-radius: 10px;
 }
 .bi-founding {
-    color: #f0f1f2;
+    color: #d1d6db;
     margin-top: 20px;
     background-color: #5A626C;
 }
 .bi-space {
   height: 12px;
+}
+.footer-text {
+  color: #d1d6db;
 }
 
 .img-hover:hover {
