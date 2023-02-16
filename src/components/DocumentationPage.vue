@@ -96,11 +96,16 @@ export default {
 .bi-tile {
     cursor: pointer;
     text-align: center;
-    background-color: #5A626C;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    background-color: #343a40;
+	border-radius: 10px;
+	text-align: justify;
+	font-weight: bold;
+	box-shadow: 20px 20px 60px #343a40,
+              -20px -20px 60px #343a40;
 }
 .bi-tile-link {
     min-width: 300px;
