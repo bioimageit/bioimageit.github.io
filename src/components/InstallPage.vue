@@ -28,7 +28,7 @@
         MacOS</a><br />
       </div> 
 
-      <div class="col-md-4 text-center box-shadow"> 
+      <div class="col-md-4 text-center shadow_box"> 
         <a href="#/install-linux">
         <img class="img-hover bi-link" src="~@/assets/install/linux.png" width="168" height="200" /><br />
         Linux</a><br />
@@ -58,10 +58,10 @@ export default {
 </script>
 
 <style scoped>
-.box-shadow {
-	background-color: #343a40;
-	border-radius: 10px;
-	box-shadow: 20px 20px 60px #343a40,
+.shadow_box {
+    background-color: #343a40;
+    border-radius: 10px;
+    box-shadow: 20px 20px 60px #343a40,
               -20px -20px 60px #343a40;
 }
 
