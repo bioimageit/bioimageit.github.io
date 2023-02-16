@@ -12,7 +12,7 @@
     <div class="text-center">
         <div class="col-12 bi-alt-light">
         <h3>Manage and process data with a simple interface</h3>
-        <img src="~@/assets/icons/gui.png" width="70%">
+        <img class="shadow" src="~@/assets/icons/gui.png" width="70%">
         <p>
         </p>
         </div>
@@ -23,7 +23,7 @@
         <br>
         <br>
         <h3>Manage and process data with a simple python API </h3>
-        <img src="~@/assets/icons/python_lib.png" width="70%">
+        <img class="shadow" src="~@/assets/icons/python_lib.png" width="70%">
         </div>
         <div class="col-12 bi-spacer">
         </div>
@@ -51,6 +51,11 @@ export default {
 </script>
 
 <style scoped>
+.shadow {
+    box-shadow: 20px 20px 60px #343a40,
+              -20px -20px 60px #343a40;
+}
+
 .bi-home-div {
     background-color: #414851;
 }
