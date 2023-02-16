@@ -3,9 +3,8 @@
   <site-navbar></site-navbar>
   <div class="container">
     <div class="row">
-      <div class="col-12 text-center ">
-        <h1><img src="~@/assets/install/windows.png" width="70"> 
-	<div class="sticky">Install BioImageIT on Windows</h1></div>
+      <div class="col-12 text-center">
+        <h1><img src="~@/assets/install/linux.png" width="70"> <br />Install BioImageIT on Windows</h1>
         </div>
     </div>
     <div class="alert-warning">
@@ -46,12 +45,6 @@ export default {
 </script>
 
 <style scoped>
-.sticky {
-	position: sticky;
-	background-color: #343a40;
-	backdrop-filter: blur(20px);
-}
-
 .alert-warning {
 	color: #dce1e6;
 	margin-left: auto;
