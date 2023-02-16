@@ -57,7 +57,7 @@ export default {
 
 <style scoped>
 .alert-warning {
-	color: #94979a;
+	color: #dce1e6;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 50px;
