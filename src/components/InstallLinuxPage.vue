@@ -56,6 +56,23 @@ export default {
 </script>
 
 <style scoped>
+.alert-warning {
+	color: #0f354c;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 85%;
+	background-color: rgba(255,255,255,.3);
+	border-radius: 10px;
+	text-align: justify;
+	font-weight: bold;
+}
+
 .bi-install {
   padding-bottom: 300px;
 }
