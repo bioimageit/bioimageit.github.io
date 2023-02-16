@@ -16,19 +16,19 @@
         <div class="bi-spacer">
         </div>
       </div> 
-      <div class="col-md-4 text-center box-shadow"> 
+      <div class="col-md-4 box-shadow"> 
         <a href="#/install-windows">
         <img class="img-hover bi-link" src="~@/assets/install/windows.png" width="200" height="200" /><br />
         Windows</a><br />
       </div>  
 
-      <div class="col-md-4 text-center box-shadow"> 
+      <div class="col-md-4 box-shadow"> 
         <a href="#/install-mac">
         <img class="img-hover bi-link" src="~@/assets/install/apple.png" width="200" height="200" /><br />
         MacOS</a><br />
       </div> 
 
-      <div class="col-md-4 text-center shadow_box"> 
+      <div class="col-md-4 shadow_box"> 
         <a href="#/install-linux">
         <img class="img-hover bi-link" src="~@/assets/install/linux.png" width="168" height="200" /><br />
         Linux</a><br />
@@ -59,6 +59,7 @@ export default {
 
 <style scoped>
 .shadow_box {
+    text-align: center;
     background-color: #343a40;
     border-radius: 10px;
     box-shadow: 20px 20px 60px #343a40,
