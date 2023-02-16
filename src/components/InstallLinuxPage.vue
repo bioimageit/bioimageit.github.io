@@ -7,7 +7,7 @@
         <h1><img src="~@/assets/logo.png" width="70"> <br />BioImageIT Install</h1>
         </div>
     </div>
-   <div class="alert alert-warning">
+   <div class="alert-warning">
       <p>By downloading, installing, or otherwise using BioImageIT, you accept and agree to be bound by all of the terms and conditions of the following licenses:
         <ul>
       <li>BioImageIT: BSD 4-Clause "Original" or "Old" License.</li>
