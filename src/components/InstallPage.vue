@@ -103,9 +103,9 @@ export default {
 }
 
 .row-doc {
-  	display: flex;
-  	flex-flow: row wrap;
-    vertical-align: top;  
-    justify-content: space-around;
+  display: flex;
+  flex-flow: row wrap;
+  vertical-align: top;  
+  justify-content: space-around;
 }
 </style>
