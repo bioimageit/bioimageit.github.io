@@ -78,7 +78,6 @@ export default {
 
 .bi-link:hover {
   color: #0071C3;
-  filter: drop-shadow(1px 1px #227db6);
   transition: all 0.1s ease;
 }
 
