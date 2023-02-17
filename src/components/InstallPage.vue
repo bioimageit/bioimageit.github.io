@@ -68,8 +68,8 @@ export default {
     background-color: #343a40;
     box-shadow: 20px 20px 60px #343a40,
               -20px -20px 60px #343a40;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .navbar-url {
