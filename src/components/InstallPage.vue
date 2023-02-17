@@ -68,7 +68,7 @@ export default {
     background-color: #343a40;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 20px 20px 60px #343a40, -20px -20px 60px #343a40;
+    box-shadow: 20px 20px 60px #343a40, -20px -20px 60px #227db6;
 }
 
 .bi-tile:hover {
