@@ -105,7 +105,7 @@ export default {
 }
 .bi-tile:hover {
     transform:scale(1.03);
-    box-shadow: 20px 20px 60px #343a40, -20px -20px 60px #343a40;
+    box-shadow: 25px 25px 65px #343a40, -25px -25px 65px #343a40;
     transition: all 0.1s ease;
 }
 
