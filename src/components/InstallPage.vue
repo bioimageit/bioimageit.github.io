@@ -70,7 +70,8 @@ export default {
 
 .bi-tile:hover {
     transform:scale(1.03);
-    filter: drop-shadow(1px 1px #343a40);
+    box-shadow: 20px 20px 60px #343a40,
+              -20px -20px 60px #343a40;
     transition: all 0.1s ease;
 }
 
