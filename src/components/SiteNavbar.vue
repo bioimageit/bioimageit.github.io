@@ -7,7 +7,7 @@
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav> 
         <b-nav-item class="nav-item"><router-link class="nav-link bi-nav-item" to="/home">Home</router-link></b-nav-item>
-        <b-nav-item class="nav-item"><router-link class="nav-link bi-nav-item" to="/install">Install</router-link></b-nav-item>
+        <b-nav-item class="nav-item"><router-link class="nav-link bi-nav-item" to="/install">Download</router-link></b-nav-item>
         <b-nav-item class="nav-item"><router-link class="nav-link bi-nav-item" to="/documentation">Documentation</router-link></b-nav-item>
 
         <b-nav-item class="nav-item"><router-link class="nav-link bi-nav-item" to="/videos">Videos</router-link></b-nav-item>
