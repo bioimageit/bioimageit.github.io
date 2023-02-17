@@ -66,7 +66,7 @@ export default {
     background-color: #343a40;
     padding-left: auto;
     padding-right: auto;
-    width: 40%;
+    width: 40px;
 }
 
 .bi-tile:hover {
