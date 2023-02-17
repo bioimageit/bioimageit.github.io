@@ -107,7 +107,7 @@ export default {
     display: flex;
     flex-flow: row wrap;
     vertical-align: top;  
-    justify-content: space-arround;
+    justify-content: space-around;
     margin-left: auto;
     margin-right: auto;
 }
