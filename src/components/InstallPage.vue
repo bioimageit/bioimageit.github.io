@@ -22,13 +22,13 @@
         Windows</a><br />
       </div>  
 
-      <div class="col-md-4 bi-tile img-hover"> 
+      <div class="col-md-4 bi-tile"> 
         <a class="bi-link" href="#/install-mac">
         <img src="~@/assets/install/apple.png" width="200" height="200" /><br />
         MacOS</a><br />
       </div> 
 
-      <div class="col-md-4 bi-tile img-hover">  
+      <div class="col-md-4 bi-tile">  
         <a class="bi-link" href="#/install-linux">
         <img src="~@/assets/install/linux.png" width="168" height="200" /><br />
         Linux</a><br />
