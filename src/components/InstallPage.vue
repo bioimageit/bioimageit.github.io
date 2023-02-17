@@ -66,14 +66,12 @@ export default {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     background-color: #343a40;
-    box-shadow: 20px 20px 60px #343a40,
-              -20px -20px 60px #343a40;
     margin-left: auto;
     margin-right: auto;
 }
 
 .bi-tile {
-  transform:scale(1.03);
+    transform:scale(1.03);
     filter: drop-shadow(1px 1px #227db6);
     transition: all 0.4s ease;
 }
@@ -82,10 +80,10 @@ export default {
     border: 1px solid #333333;
 }
 .bi-install {
-  padding-bottom: 140px;
+    padding-bottom: 140px;
 }
 .bi-spacer{
-  height: 100px;
+    height: 100px;
 }
 
 .img-hover:hover {
@@ -95,13 +93,13 @@ export default {
 }
 
 .bi-link {
-  text-decoration: none;
-  color: #227db6;
+    text-decoration: none;
+    color: #227db6;
 }
 
 .bi-link:hover {
-  color: #0071C3;
-  filter: drop-shadow(1px 1px #227db6);
-  transition: all 0.1s ease;
+    color: #0071C3;
+    filter: drop-shadow(1px 1px #227db6);
+    transition: all 0.1s ease;
 }
 </style>
