@@ -16,9 +16,9 @@
         <div class="bi-spacer">
         </div>
       </div> 
-      <div class="col-md-4 bi-tile"> 
+      <div class="col-md-4 bi-tile img-hover bi-link"> 
         <a href="#/install-windows">
-        <img class="img-hover bi-link" src="~@/assets/install/windows.png" width="200" height="200" /><br />
+        <img src="~@/assets/install/windows.png" width="200" height="200" /><br />
         Windows</a><br />
       </div>  
 
