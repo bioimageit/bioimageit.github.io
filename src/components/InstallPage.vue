@@ -10,7 +10,7 @@
         </div>
     </div>
 
-    <div class="row bi-install col-12">
+    <div class="row-doc bi-install col-12">
       <div class="col-12">
         <div class="bi-spacer">
         </div>
@@ -100,5 +100,13 @@ export default {
     color: #0071C3;
     filter: drop-shadow(1px 1px #227db6);
     transition: all 0.1s ease;
+}
+
+
+.row-doc {
+  	display: flex;
+  	flex-flow: row wrap;
+	  vertical-align: top;  
+	  justify-content: space-around;
 }
 </style>
