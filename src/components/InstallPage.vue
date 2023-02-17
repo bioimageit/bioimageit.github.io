@@ -16,21 +16,21 @@
         <div class="bi-spacer">
         </div>
       </div> 
-      <div class="col-md-4 bi-tile img-hover bi-link"> 
-        <a href="#/install-windows">
+      <div class="col-md-4 bi-tile img-hover"> 
+        <a class="bi-link" href="#/install-windows">
         <img src="~@/assets/install/windows.png" width="200" height="200" /><br />
         Windows</a><br />
       </div>  
 
-      <div class="col-md-4 bi-tile"> 
-        <a href="#/install-mac">
-        <img class="img-hover bi-link" src="~@/assets/install/apple.png" width="200" height="200" /><br />
+      <div class="col-md-4 bi-tile img-hover"> 
+        <a class="bi-link" href="#/install-mac">
+        <img src="~@/assets/install/apple.png" width="200" height="200" /><br />
         MacOS</a><br />
       </div> 
 
-      <div class="col-md-4 bi-tile"> 
-        <a href="#/install-linux">
-        <img class="img-hover bi-link" src="~@/assets/install/linux.png" width="168" height="200" /><br />
+      <div class="col-md-4 bi-tile img-hover">  
+        <a class="bi-link" href="#/install-linux">
+        <img src="~@/assets/install/linux.png" width="168" height="200" /><br />
         Linux</a><br />
       </div> 
 
