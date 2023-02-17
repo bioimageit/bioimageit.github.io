@@ -68,12 +68,13 @@ export default {
     background-color: #343a40;
     margin-left: auto;
     margin-right: auto;
+    box-shadow: 20px 20px 60px #343a40, -20px -20px 60px #343a40;
 }
 
 .bi-tile:hover {
     transform:scale(1.03);
     filter: drop-shadow(1px 1px #227db6);
-    transition: all 0.4s ease;
+    transition: all 0.1s ease;
 }
 
 .navbar-url {
@@ -89,7 +90,7 @@ export default {
 .img-hover:hover {
     transform:scale(1.03);
     filter: drop-shadow(1px 1px #227db6);
-    transition: all 0.4s ease;
+    transition: all 0.1s ease;
 }
 
 .bi-link {
