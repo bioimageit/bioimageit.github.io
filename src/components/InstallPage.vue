@@ -10,7 +10,7 @@
         </div>
     </div>
 
-    <div class="row-doc bi-install col-12">
+    <div class="bi-install col-12">
       <div class="col-12">
         <div class="bi-spacer">
         </div>
@@ -66,7 +66,6 @@ export default {
     background-color: #343a40;
     padding-left: auto;
     padding-right: auto;
-    width: 40px;
 }
 
 .bi-tile:hover {
@@ -103,13 +102,4 @@ export default {
     transition: all 0.1s ease;
 }
 
-
-.row-doc {
-    display: flex;
-    flex-flow: row wrap;
-    vertical-align: top;  
-    justify-content: space-around;
-    margin-left: auto;
-    margin-right: auto;
-}
 </style>
