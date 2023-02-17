@@ -2,7 +2,7 @@
 <div>
   <site-navbar></site-navbar>
   <div class="container bi-padding">
-    <div class="row">
+    <div class="row-doc">
     <div class="col-md-6 text-center">
       <h1>Nature Methods Publication</h1>
 
@@ -81,5 +81,12 @@ export default {
   color: #0071C3;
   filter: drop-shadow(1px 1px #227db6);
   transition: all 0.1s ease;
+}
+
+.row-doc {
+  display: flex;
+  flex-flow: row wrap;
+  vertical-align: top;  
+  justify-content: space-around;
 }
 </style>
