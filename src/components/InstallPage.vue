@@ -64,8 +64,8 @@ export default {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     background-color: #343a40;
-    padding-left: -10px;
-    padding-right: -10px;
+    padding-left: -50px;
+    padding-right: -50px;
 }
 
 .bi-tile:hover {
@@ -107,8 +107,8 @@ export default {
     display: flex;
     flex-flow: row wrap;
     vertical-align: top;  
-    justify-content: center;
-    width: 80%;
-    margin: 10px;
+    justify-content: space-arround;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 </style>
