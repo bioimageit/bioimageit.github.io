@@ -16,7 +16,7 @@
         <div class="bi-spacer">
         </div>
       </div> 
-      <div class="col-md-4 bi-tile col-sm"> <a href="#/install-windows" 
+      <div class="col-md-4 bi-tile col-sm"> <a href="#/install-windows">
         <a class="bi-link" href="#/install-windows">
         <img src="~@/assets/install/windows.png" width="200" height="200" /><br />
         Windows</a><br /></a>
