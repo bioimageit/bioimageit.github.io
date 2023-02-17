@@ -12,7 +12,7 @@
     <div class="text-center">
         <div class="col-12 bi-alt-light">
         <h3>Manage and process data with a simple interface</h3>
-        <img src="~@/assets/icons/gui.png" width="70%">
+        <img src="~@/assets/icons/gui.png" width="80%">
         <p>
         </p>
         </div>
@@ -23,7 +23,7 @@
         <br>
         <br>
         <h3>Manage and process data with a simple python API </h3>
-        <img src="~@/assets/icons/python_lib.png" width="70%">
+        <img src="~@/assets/icons/python_lib.png" width="80%">
         </div>
         <div class="col-12 bi-spacer">
         </div>
