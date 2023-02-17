@@ -66,9 +66,8 @@ export default {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     background-color: #343a40;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: 20px 20px 60px #343a40, -20px -20px 60px #343a40;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .bi-tile:hover {
