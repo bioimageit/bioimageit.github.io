@@ -72,6 +72,12 @@ export default {
     margin-right: auto;
 }
 
+.bi-tile {
+  transform:scale(1.03);
+    filter: drop-shadow(1px 1px #227db6);
+    transition: all 0.4s ease;
+}
+
 .navbar-url {
     border: 1px solid #333333;
 }
@@ -83,7 +89,7 @@ export default {
 }
 
 .img-hover:hover {
-    transform:scale(1.05);
+    transform:scale(1.03);
     filter: drop-shadow(1px 1px #227db6);
     transition: all 0.4s ease;
 }
