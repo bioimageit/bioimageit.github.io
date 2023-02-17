@@ -68,12 +68,12 @@ export default {
     background-color: #343a40;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 20px 20px 60px #343a40, -20px -20px 60px #227db6;
+    box-shadow: 20px 20px 60px #343a40, -20px -20px 60px #343a40;
 }
 
 .bi-tile:hover {
     transform:scale(1.03);
-    filter: drop-shadow(1px 1px #227db6);
+    filter: drop-shadow(1px 1px #343a40);
     transition: all 0.1s ease;
 }
 
