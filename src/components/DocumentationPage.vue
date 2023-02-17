@@ -31,13 +31,13 @@
                     <p>Create an experiment</p>
                 </div>
                 </a>
-                <a target="_blank" href="https://github.com/bioimageit/bioimageit-notebooks/blob/main/tutorial2-runner.ipynb" class="bi-tile-link">
+                <a target="_blank" href="https://github.com/bioimageit/bioimageit-notebooks/blob/main/tutorial2-tool.ipynb" class="bi-tile-link">
                 <div class="col-sm bi-tile">
                     <img class="img-hover" src="~@/assets/icons/tutorial_icon_white.png" alt="tutorial" width="150px">
                     <p>Run a data processing tool</p>
                 </div>
                 </a>
-                <a target="_blank" href="https://github.com/bioimageit/bioimageit-notebooks/blob/main/tutorial3-pipeline.ipynb" class="bi-tile-link">
+                <a target="_blank" href="https://github.com/bioimageit/bioimageit-notebooks/blob/main/tutorial3-runner.ipynb" class="bi-tile-link">
                 <div class="col-sm bi-tile">
                     <img class="img-hover" src="~@/assets/icons/tutorial_icon_white.png" alt="tutorial" width="150px">
                     <p>Design a pipeline</p>
