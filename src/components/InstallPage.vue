@@ -2,7 +2,6 @@
 <div>
   <site-navbar></site-navbar>
   <div class="container">
-    <div class="row">
       <div class="col-12">
         <h1>BioImageIT Install</h1>
         <br>
@@ -34,7 +33,6 @@
         Linux</a><br />
       </div> 
 
-    </div>
   </div>
   <site-footer></site-footer>
 </div>
