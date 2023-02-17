@@ -3,33 +3,31 @@
   <site-navbar></site-navbar>
   <div class="container bi-padding">
     <div class="row-doc">
-    <div class="col-md-6 text-center">
+    
+    <div class="text-center">
       <h1>Nature Methods Publication</h1>
-
       <p class="text-center">
       <a class="bi-link" href="https://www.nature.com/articles/s41592-022-01642-9"><img class="img-hover" src="~@/assets/events/nature_methods.png" width="200" height="270" /></a>
       </p> 
     </div>
 
-    <div class="col-md-6 text-center">
+    <div class="text-center">
       <h1>BioImage Informatics 2021</h1>
-
       <p class="text-center">
       <a class="bi-link" href="https://raw.githubusercontent.com/bioimageit/bioimageit.github.io/master/src/assets/events/poster_bii.png"><img class="img-hover" src="~@/assets/events/poster_bii.png" width="200" height="270" /></a>
       </p>
-
     </div> 
-    <div class="col-md-6 text-center">
+    
+    <div class="text-center">
       <h1>MiFoBio 2021</h1>
-
       <p class="text-center">
       <a class="bi-link" href="https://github.com/bioimageit/presentations/raw/main/2021-11-05-bioimageit_mifobio.pdf"><img class="img-hover" src="~@/assets/events/mifobio2021.jpg" width="200" height="270" /></a> 
       </p> 
       </div>
     </div>
-    <div class="col-md-6 text-center">
+    
+    <div class="text-center">
       <h1>RTMFM webinar 2022</h1>
-
       <p class="text-center">
       <iframe class="bi-link" width="500" height="270"
         src="https://www.youtube.com/embed/5zZShltNfkI">
