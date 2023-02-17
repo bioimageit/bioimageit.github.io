@@ -65,9 +65,9 @@ export default {
 }
 
 .img-hover:hover {
-  transform:scale(1.03);
+  transform:scale(1.05);
   box-shadow: 20px 20px 60px #343a40, -20px -20px 60px #343a40;
-  transition: all 0.1s ease;
+  transition: all 0.2s ease;
 }
 
 
