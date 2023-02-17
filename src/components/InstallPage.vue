@@ -25,7 +25,7 @@
       <div class="col-md-4 bi-tile"> 
         <a class="bi-link" href="#/install-mac">
         <img src="~@/assets/install/apple.png" width="200" height="200" /><br />
-        MacOS</a><br />
+        macOS</a><br />
       </div> 
 
       <div class="col-md-4 bi-tile">  
