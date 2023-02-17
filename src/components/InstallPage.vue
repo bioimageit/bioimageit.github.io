@@ -11,7 +11,7 @@
         </div>
     </div>
 
-    <div class="row bi-install">
+    <div class="row bi-install col-12">
       <div class="col-12">
         <div class="bi-spacer">
         </div>
