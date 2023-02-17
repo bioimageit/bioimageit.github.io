@@ -109,5 +109,6 @@ export default {
     vertical-align: top;  
     justify-content: space-around;
     width: 80%;
+    margin: 10px;
 }
 </style>
