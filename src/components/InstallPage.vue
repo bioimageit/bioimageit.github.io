@@ -108,5 +108,6 @@ export default {
     flex-flow: row wrap;
     vertical-align: top;  
     justify-content: space-around;
+    width: 80%;
 }
 </style>
