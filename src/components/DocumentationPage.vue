@@ -101,7 +101,6 @@ export default {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     background-color: #343a40;
-    box-shadow: 20px 20px 60px #343a40, -20px -20px 60px #343a40;
 }
 .bi-tile:hover {
     transform:scale(1.03);
@@ -130,6 +129,7 @@ export default {
 
 .bi-link:hover {
   color: #0071C3;
+  filter: drop-shadow(1px 1px #227db6);
   transition: all 0.1s ease;
 }
 .bi-tile-link:hover {
