@@ -3,7 +3,7 @@
   <site-navbar></site-navbar>
   <div class="container">
       <div class="col-12">
-        <h1>BioImageIT Install</h1>
+        <h1>BioImageIT Download</h1>
         <br>
         <h2>What is your operating system ?</h2>
         <p>Downloaded 135 times</p>
