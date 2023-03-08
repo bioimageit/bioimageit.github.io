@@ -1,5 +1,26 @@
-# BioImageIT_test_website
+# toolbox-js-browser
 
-Created by Léo Maury
+## Project setup
+```
+npm install
+```
 
-Hoping it may give you some ideas for your own websites
+### Compiles and hot-reloads for development
+```
+export NODE_OPTIONS=--openssl-legacy-provider
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+export NODE_OPTIONS=--openssl-legacy-provider
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
