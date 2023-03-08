@@ -6,7 +6,7 @@
         <h1>Download BioImageIT</h1>
         <br>
         <h2>What is your operating system ?</h2>
-        <p>Downloaded 135 times</p>
+        <p>Downloaded 138 times</p>
         </div>
     </div>
 
