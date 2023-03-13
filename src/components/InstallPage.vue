@@ -6,7 +6,7 @@
         <h1>BioImageIT Install</h1>
         <br>
         <h2>What is your operating system ?</h2>
-        <p>Downloaded 134 times</p>
+        <p>Downloaded 141 times</p>
         </div>
     </div>
 
