@@ -10,24 +10,24 @@
         </div>
     </div>
 
-    <div class="row-doc bi-install col-12">
+    <div class="bi-install col-12">
       <div class="col-12">
         <div class="bi-spacer">
         </div>
       </div> 
-      <div class="bi-tile col-sm">
+      <div class="col-sm">
         <a class="bi-link" href="#/install-windows">
         <img src="~@/assets/install/windows.png" width="200" height="200" /><br />
         Windows</a><br />
       </div>  
 
-      <div class="bi-tile col-sm" href="#/install-mac"> 
+      <div class="col-sm" href="#/install-mac"> 
         <a class="bi-link" href="#/install-mac">
         <img src="~@/assets/install/apple.png" width="200" height="200" /><br />
         macOS</a><br />
       </div> 
 
-      <div class="bi-tile col-sm" href="#/install-linux">  
+      <div class="col-sm" href="#/install-linux">  
         <a class="bi-link" href="#/install-linux">
         <img src="~@/assets/install/linux.png" width="168" height="200" /><br />
         Linux</a><br />
@@ -56,25 +56,6 @@ export default {
 </script>
 
 <style scoped>
-.bi-tile {
-    cursor: pointer;
-    text-align: center;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    background-color: #343a40;
-    padding-left: auto;
-    padding-right: auto;
-}
-
-.bi-tile:hover {
-    transform:scale(1.03);
-    box-shadow: 20px 20px 60px #343a40,
-              -20px -20px 60px #343a40;
-    transition: all 0.1s ease;
-}
-
 .navbar-url {
     border: 1px solid #333333;
 }
@@ -86,7 +67,7 @@ export default {
 }
 
 .img-hover:hover {
-    transform:scale(1.03);
+    transform:scale(1.05);
     filter: drop-shadow(1px 1px #227db6);
     transition: all 0.1s ease;
 }
