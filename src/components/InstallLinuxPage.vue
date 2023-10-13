@@ -20,7 +20,7 @@
 
       <p>To install BioImageIT on Linux, run the following command from terminal:</p>
       <p><code><br />
-        cd /home/$USER && wget  https://raw.githubusercontent.com/bioimageit/bioimageit-install/v0.1.2/linux/install.sh && chmod +x install.sh && sh install.sh && rm install.sh<br />
+        cd /home/$USER && wget https://raw.githubusercontent.com/bioimageit/bioimageit-install/v0.2.0/linux/install.sh && chmod +x install.sh && sh install.sh && rm install.sh<br />
       </code></p>
 
       <p>When the install is finished, BioImageIT is installed in <i>/home/username/BioimageIT</i> .</p>
