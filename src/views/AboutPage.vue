@@ -1,26 +1,41 @@
 <template>
-<div>
-  <site-navbar></site-navbar>
-  <div class="container">
-    <div class="col-12">
-      <h1>About</h1>
-    </div>
-    <div class="col-12">
+  <div>
+    <SiteNavbar />
+    <div class="container">
+      <div class="col-12">
+        <h1>About</h1>
+      </div>
+      <div class="col-12">
+        <div class="bi-spacer"></div>
 
-    <div class="bi-spacer">
-    </div> 
-    
-      <h2>The BioImageIT project</h2>
-      
-      Started in 2019 with France-BioImaging, the BioImageIT project aims at providing a middleware that integrates data management with analysis using existing softwares (Omero, BioFormats, Fiji, napari, Scipy, pytorch...).
-      The BioImageIT software is open-source and available at <a class="bi-link" href="https://github.com/bioimageit">https://github.com/bioimageit</a>
-      
-          <div class="bi-spacer">
-    </div> 
-      <h2>Road map</h2>
-      BioImageIT is being developed within the framework of the France BioImaging National Research Infrastructure (FBI). As a first step of deployment, this project is supported by the Research Infrastructure, until the end of 2023. For the 2 years, two engineers are dedicated to the deployment and maintenance of BioImageIT, as well as the integration of new software. BioImageIT is now being deployed on ten imaging platforms of the France-BioImaging national infrastructure. A plan and schedule have been validated for funding by the FBI steering committee (<a class="bi-link" href="https://france-bioimaging.org/france-bioimaging-funding-decision/fbi-internal-call-2021-technology-transfer-results/">https://france-bioimaging.org/france-bioimaging-funding-decision/fbi-internal-call-2021-technology-transfer-results/</a>) and can be accessed through <a class="bi-link" href="https://github.com/bioimageit/bioimageit.github.io/raw/master/src/components/AO-FBI-tech-transfer-BioImage-ITbis.pdf">this link</a>. 
+        <h2>The BioImageIT project</h2>
 
-    <!--
+        Started in 2019 with France-BioImaging, the BioImageIT project aims at providing a
+        middleware that integrates data management with analysis using existing softwares (Omero,
+        BioFormats, Fiji, napari, Scipy, pytorch...). The BioImageIT software is open-source and
+        available at
+        <a class="bi-link" href="https://github.com/bioimageit">https://github.com/bioimageit</a>
+
+        <div class="bi-spacer"></div>
+        <h2>Road map</h2>
+        BioImageIT is being developed within the framework of the France BioImaging National
+        Research Infrastructure (FBI). As a first step of deployment, this project is supported by
+        the Research Infrastructure, until the end of 2023. For the 2 years, two engineers are
+        dedicated to the deployment and maintenance of BioImageIT, as well as the integration of new
+        software. BioImageIT is now being deployed on ten imaging platforms of the France-BioImaging
+        national infrastructure. A plan and schedule have been validated for funding by the FBI
+        steering committee (<a
+          class="bi-link"
+          href="https://france-bioimaging.org/france-bioimaging-funding-decision/fbi-internal-call-2021-technology-transfer-results/"
+          >https://france-bioimaging.org/france-bioimaging-funding-decision/fbi-internal-call-2021-technology-transfer-results/</a
+        >) and can be accessed through
+        <a
+          class="bi-link"
+          href="https://github.com/bioimageit/bioimageit.github.io/raw/master/src/components/AO-FBI-tech-transfer-BioImage-ITbis.pdf"
+          >this link</a
+        >.
+
+        <!--
       <h2>The BioImageIT project</h2>
 
       <p><i>
@@ -88,93 +103,123 @@
       </p>  
       
     -->
-    <div class="bi-spacer">
-    </div> 
-    <h2>Team</h2> 
+        <div class="bi-spacer"></div>
+        <h2>Team</h2>
 
-    <div class="row">
+        <div class="row">
+          <div class="col-md-3 text-center">
+            <a class="bi-link" href="https://sylvainprigent.github.io">
+              <img
+                class="img-hover"
+                src="~@/assets/team/sprigent.png"
+                width="200"
+                height="200"
+              /><br />
+              Sylvain Prigent</a
+            >
+            <br />
+            BioImageIT project manager &#8211; Inria <br />
+          </div>
 
-    <div class="col-md-3 text-center"> 
-      <a class="bi-link" href="https://sylvainprigent.github.io">
-      <img class="img-hover" src="~@/assets/team/sprigent.png" width="200" height="200" /><br />
-      Sylvain Prigent</a> <br />
-      BioImageIT project manager &#8211; Inria <br />
-    </div>
+          <div class="col-md-3 text-center">
+            <a class="bi-link" href="https://leconteludovic.github.io/Webpage/">
+              <img
+                class="img-hover"
+                src="~@/assets/team/lleconte.png"
+                width="200"
+                height="200"
+              /><br />
+              Ludovic Leconte</a
+            ><br />
+            Responsible of the pilot study &#8211; CNRS/Curie <br />
+          </div>
 
-    <div class="col-md-3 text-center"> 
-      <a class="bi-link" href="https://leconteludovic.github.io/Webpage/">
-      <img class="img-hover" src="~@/assets/team/lleconte.png" width="200" height="200" /><br />
-      Ludovic Leconte</a><br /> 
-      Responsible of the pilot study &#8211; CNRS/Curie <br />
-    </div>
+          <div class="col-md-3 text-center">
+            <a class="bi-link" href="https://cessvala.github.io/">
+              <img
+                class="img-hover"
+                src="~@/assets/team/cvalades.png"
+                width="200"
+                height="200"
+              /><br />
+              Cesar Augusto Valades-Cruz</a
+            ><br />
+            Engineer &#8211; Inria<br />
+          </div>
 
-    <div class="col-md-3 text-center"> 
-      <a class="bi-link" href="https://cessvala.github.io/">
-      <img class="img-hover" src="~@/assets/team/cvalades.png" width="200" height="200" /><br />
-      Cesar Augusto Valades-Cruz</a><br />
-      Engineer &#8211; Inria<br/>
-    </div>
+          <div class="col-md-3 text-center">
+            <a class="bi-link" href="https://leomaury.github.io/">
+              <img
+                class="img-hover"
+                src="~@/assets/team/lmaury.png"
+                width="200"
+                height="200"
+              /><br />
+              L&eacute;o Maury</a
+            ><br />
+            Engineer responsible of the deployment &#8211; CNRS
+          </div>
+        </div>
+        <div class="row justify-content-md-center">
+          <div class="col-md-3 text-center">
+            <a class="bi-link" href="https://science.curie.fr/members/salamero-jean-phd/">
+              <img
+                class="img-hover"
+                src="~@/assets/team/jsalamero.png"
+                width="200"
+                height="200"
+              /><br />
+              Jean Salamero</a
+            ><br />
+            Head of STED research team &#8211; CNRS/Curie
+          </div>
 
-    <div class="col-md-3 text-center"> 
-      <a class="bi-link" href="https://leomaury.github.io/">
-      <img class="img-hover" src="~@/assets/team/lmaury.png" width="200" height="200" /><br />
-      L&eacute;o Maury</a><br /> 
-      Engineer responsible of the deployment &#8211; CNRS
-    </div>
+          <div class="col-md-3 text-center">
+            <a
+              class="bi-link"
+              href="https://team.inria.fr/serpico/team-members/charles-kervrann-2/"
+            >
+              <img
+                class="img-hover"
+                src="~@/assets/team/ckervrann.png"
+                width="200"
+                height="200"
+              /><br />
+              Charles Kervrann</a
+            ><br />
+            Head of Serpico research team &#8211; Inria<br />
+          </div>
+        </div>
 
-    </div>
-    <div class="row justify-content-md-center">
-
-    <div class="col-md-3 text-center"> 
-      <a class="bi-link" href="https://science.curie.fr/members/salamero-jean-phd/">
-      <img class="img-hover" src="~@/assets/team/jsalamero.png" width="200" height="200" /><br />
-      Jean Salamero</a><br /> 
-      Head of STED research team &#8211; CNRS/Curie
-    </div>
-
-    <div class="col-md-3 text-center"> 
-      <a class="bi-link" href="https://team.inria.fr/serpico/team-members/charles-kervrann-2/">
-      <img class="img-hover" src="~@/assets/team/ckervrann.png" width="200" height="200" /><br />
-      Charles Kervrann</a><br /> 
-      Head of Serpico research team &#8211; Inria<br />
-    </div>
-
-    </div>
-
-    <div class="bi-spacer">
-    </div>  
-
-
+        <div class="bi-spacer"></div>
       </div>
-   </div>   
-<site-footer></site-footer>     
-</div>
+    </div>
+    <SiteFooter />
+  </div>
 </template>
 
 <script>
-import SiteNavbar from './SiteNavbar'
-import SiteFooter from './SiteFooter'
+import SiteFooter from '../components/SiteFooter.vue'
+import SiteNavbar from '../components/SiteNavbar.vue'
 
 export default {
   name: 'AboutPage',
-  props: {
-  },
-  methods: {
-  },
+  props: {},
+  methods: {},
   components: {
-    SiteNavbar,
-    SiteFooter
+    SiteFooter,
+    SiteNavbar
   }
 }
 </script>
 
 <style scoped>
-.bi-spacer{
+.bi-spacer {
   height: 50px;
 }
 
 .img-hover:hover {
-  transform:scale(1.03);
+  transform: scale(1.03);
   filter: drop-shadow(1px 1px #227db6);
   transition: all 0.1s ease;
 }
@@ -185,7 +230,7 @@ export default {
 }
 
 .bi-link:hover {
-  color: #0071C3;
+  color: #0071c3;
   filter: drop-shadow(1px 1px #227db6);
   transition: all 0.1s ease;
 }

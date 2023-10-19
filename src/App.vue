@@ -1,27 +1,20 @@
+<script setup>
+import { RouterLink, RouterView } from 'vue-router'
+</script>
+
 <template>
   <div id="app">
-    <router-view></router-view>
+    <RouterView />
   </div>
 </template>
 
-<script>
-
-export default {
-  name: 'App',
-  data: function() {
-    return {
-    
-    }
-  },
-  components: {
-    
-  }
-}
-</script>
-
 <style>
 #app {
-  font-family: SF Pro Display, Helvetica, Arial, sans-serif;
+  font-family:
+    SF Pro Display,
+    Helvetica,
+    Arial,
+    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #dce1e6;
